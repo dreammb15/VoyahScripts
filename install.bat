@@ -243,6 +243,7 @@ Echo 5 - Коррекция DNS для нормальной работы при�
 Echo 6 - Установка пользовательских приложений
 if %cunba% == 1 Echo 7 - Удаление CUNBA с устройства
 Echo 8 - Разрешить/запретить встроенную клавиатуру
+Echo 9 - Удаление иероглифов из имени WiFi сети
 Echo 0 - ВЫХОД
  
 echo.
@@ -256,6 +257,7 @@ if "%choice%"=="5" (call :setdns)
 if "%choice%"=="6" (call :userapk)
 if %cunba% == 1 if "%choice%"=="7" (call :delcunba)
 if "%choice%"=="8" (call :keyb)
+if "%choice%"=="9" (call :wifiname)
 if "%choice%"=="0" goto :end
 goto m1
 
@@ -499,6 +501,13 @@ if %TESTMODE% == 0 adb -d reboot
 :kbend
 exit /b
 goto :end
+:wifiname
+SET /P pass=Введите желаемое имя для WiFi сети БЕЗ пробелов английскими буквами:
+adb shell settings put global device_name ''
+adb shell settings put global device_name_suffix pass
+adb shell settings put global device_name_sample pass
+:wifiend
+exit /b
 rem дальше обработка ошибок
 :err1
 echo off
