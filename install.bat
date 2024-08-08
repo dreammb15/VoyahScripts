@@ -450,6 +450,7 @@ if %TESTMODE% == 1 (
 ) ELSE (
 	for %%i in (.././apk2/*.apk) do (adb -d install -g .././apk2/%%i)
 	adb -d shell appops set com.lixiang.chat.store REQUEST_INSTALL_PACKAGES allow > nul
+	adb -d shell dumpsys deviceidle whitelist +air.StrelkaHUDFREE >nul
 	)
 echo нажмите любую клавишу для возврата в основное меню
 pause > nul
