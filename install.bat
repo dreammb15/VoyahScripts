@@ -502,16 +502,21 @@ if %TESTMODE% == 0 adb -d reboot
 exit /b
 goto :end
 :wifiname
+SET pass=
 SET /P pass=Введите желаемое имя для WiFi сети БЕЗ пробелов английскими буквами:
 if %TESTMODE% == 1 (
 	Echo Введено имя сети: %pass%
+	echo adb -d root
+	echo adb -d shell settings put global device_name ''
+	echo adb -d shell settings put global device_name_suffix %pass%
+	echo adb -d shell settings put global device_name_sample %pass%
 	pause
 	goto :wifiend
 )
 adb -d root
 adb -d shell settings put global device_name ''
-adb -d shell settings put global device_name_suffix pass
-adb -d shell settings put global device_name_sample pass
+adb -d shell settings put global device_name_suffix %pass%
+adb -d shell settings put global device_name_sample %pass%
 :wifiend
 exit /b
 rem дальше обработка ошибок
