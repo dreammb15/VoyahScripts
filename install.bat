@@ -68,6 +68,7 @@ if %size1%==90440743 (
 	for %%i in ("app-launcher.apk") do set /a size2=%%~Zi > nul
 	if %size2% NEQ 22191081 (goto :ERRcont) 
 	echo устанавливаем новую версию ланчера
+	cd "..\"
 )
 if exist "./platform-tools/adb.exe" (cd ./platform-tools) else goto :err1
 if %DEBUGMODE% == 1 (
