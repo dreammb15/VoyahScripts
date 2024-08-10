@@ -175,7 +175,9 @@ if not exist process.txt (
 	goto :end
 	)
 for %%i in ("process.txt") do set /a size2=%%~Zi > nul
-if %size2% ==  0 (echo Чистая установка) ELSE (
+if %size2% ==  0 (echo Чистая установка
+goto :ex3
+) ELSE (
 	:zone2
 	echo Обнаружен установленный ланчер. Выберите
 	Echo 1 - удалить и установить заново. все добавленные приложения будут удалены из ланчера (не с машины)
@@ -190,7 +192,7 @@ if %size2% ==  0 (echo Чистая установка) ELSE (
 		goto :ex2
 	)
 	if "%choice%"=="2" (
-		adb install ./../apk/app-launcher.apk
+:ex3		adb install ./../apk/app-launcher.apk
 		goto :ex2
 	)
 	if "%choice%"=="3" (
