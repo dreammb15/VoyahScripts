@@ -429,17 +429,17 @@ echo. ВЫ ПОНИМАЕТЕ ЧТО ВНОСИТЕ ИЗМЕНЕНИЯ В СИС
 echo. НА ПОЛУЧЕНИЯ ПРОШИВОК ЭТО НЕ ДОЛЖНО СКАЗАТЬСЯ
 ECHO. ВЫ ПРОчИТАЛИ ВСЕ ВЫШЕНАПИСАННОЕ И СОГЛАСНЫ
 echo. Введите ниже 1 для common.dot.dns.yandex.net
-echo. 2 для dns10.quad.net, 3 для возврата в меню
-SET /P pass=Введите 1, 2 или 3 
+echo. 2 для dns10.quad.net, 0 для возврата в меню
+SET /P pass=Введите 1, 2 или 0 
 if %TESTMODE% == 1 (
 	echo Введено %pass%
 	echo нажмите любую клавишу
 	pause >nul
 	goto :setdns_ex
 )
+if %pass% == 0 exit /b
 adb -d shell settings put global private_dns_mode hostname
 adb -d shell settings put global private_dns_default_mode hostname
-if %pass% == 3 exit /b
 if %pass% == 1 (
 	adb -d shell settings put global private_dns_specifier common.dot.dns.yandex.net
 	adb -d shell settings put global captive_portal_fallback_url http://api.browser.yandex.ru/generate_204
@@ -448,8 +448,8 @@ if %pass% == 1 (
 	adb -d shell settings put global captive_portal_other_fallback_urls http://www.google.com/generate_204
 ) else  adb -d shell settings put global private_dns_specifier dns10.quad.net
 :setdns_ex
-echo ПРОИЗВЕДЕНА НАСТРОЙКА DNS
-echo нажмите любую клавишу для продолжения
+echo. ПРОИЗВЕДЕНА НАСТРОЙКА DNS
+echo. нажмите любую клавишу для продолжения
 pause > nul
 exit /b
 :userapk
@@ -457,20 +457,21 @@ cls
 if %DEBUGMODE% ==1 (echo Проверим наличие каталога с приложениями)
 if not exist ".././apk2" (
 	echo.
-	echo каталог пользовательских файлов ./apk2 отсутствует 
-	echo нажмите любую клавишу для возврата в основное меню
+	echo. каталог пользовательских файлов ./apk2 отсутствует 
+	echo. нажмите любую клавишу для возврата в основное меню
 	pause >nul
 	exit /b
 )
 echo. Проверка выполнена
-echo НАЧАЛО УСТАНОВКИ ПОЛЬЗОВАТЕЛЬСКИХ ПРИЛОЖЕНИЙ. 
-echo БУДЬТЕ ВНИМАТЕЛЬНЫ. МЫ НЕ НЕСЕМ НИКАКОЙ ОТВЕТСТВЕННОСТИ
+echo. НАЧАЛО УСТАНОВКИ ПОЛЬЗОВАТЕЛЬСКИХ ПРИЛОЖЕНИЙ. 
+echo. БУДЬТЕ ВНИМАТЕЛЬНЫ. МЫ НЕ НЕСЕМ НИКАКОЙ ОТВЕТСТВЕННОСТИ
 echo.
 echo. ПРОЧТИТЕ НИЖЕ
 echo ----------------------
-echo Будет произведена установка всех приложений из подкаталога apk2
-echo После установки, все приложения необходимо ВРУЧНУЮ добавить в машине с помощью кнопки "+" в ланчере
-echo. 
+echo. Будет произведена установка всех приложений из подкаталога apk2
+echo. После установки, все приложения необходимо 
+echo. ВРУЧНУЮ добавить в машине с помощью кнопки "+" в ланчере
+echo.
 echo. Рекомендованный набор приложений для работы в машине
 echo. 1. yn.apk - Яндекс.Навигатор. Работает голосовой ввод 
 echo.     от Алисы, при правильной настройке языков программы
@@ -526,16 +527,16 @@ echo. .APK СТОРОННЕЙ КЛАВИАТУРЫ ПЕРЕД
 echo. ПРОДОЛЖЕНИЕМ ВЫПОЛНЕНИЯ СКРИПТА
 echo. Введите 1 для РАЗРЕШИТЬ
 echo. 2 для ЗАПРЕТИТЬ родную клавиатуру
-echo. 3 вернуться в предыдущее меню
+echo. 0 вернуться в предыдущее меню
 echo. 
-SET /P pass=Введите 1 или 2 или 3 :
+SET /P pass=Введите 1 или 2 или 0 :
 if %TESTMODE% == 1 (
 	echo. Введено %pass%
 	echo. нажмите любую клавишу
 	pause >nul
 	goto :kbend
 )
-if %pass% == 3 goto :kbend
+if %pass% == 0 goto :kbend
 adb -d root
 if %pass% == 1 (
 	echo. Восстанавливаем разрешения для родной клавиатуры
