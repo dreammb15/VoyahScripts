@@ -254,19 +254,19 @@ echo.     CPU %cpuver% on android %verver% cunba %cunba%
 Echo Выберите возможности программы установки:
 Echo.
 if %cunba% == 0 (
-	Echo 1 - Установка TWEAKS + LAUNCHER
+	Echo. 1 - Установка TWEAKS + LAUNCHER
 	) else (
-	Echo 1 - Установка TWEAKS БЕЗ LAUNCHER'a
+	Echo. 1 - Установка TWEAKS БЕЗ LAUNCHER'a
 )
-Echo 2 - Установка приложения APKPURE
-Echo 3 - Установка временной зоны
-if %cunba% == 0 Echo 4 - Перетаскивание программ на экран пассажира
-Echo 5 - Коррекция DNS для нормальной работы приложений
-Echo 6 - Установка пользовательских приложений
-if %cunba% == 1 Echo 7 - Удаление CUNBA с устройства
-Echo 8 - Разрешить/запретить встроенную клавиатуру
-Echo 9 - Удаление иероглифов из имени WiFi сети
-Echo 0 - ВЫХОД
+Echo. 2 - Установка приложения APKPURE
+Echo. 3 - Установка временной зоны
+if %cunba% == 0 Echo. 4 - Перетаскивание программ на экран пассажира
+Echo. 5 - Коррекция DNS для нормальной работы приложений
+Echo. 6 - Установка пользовательских приложений
+if %cunba% == 1 Echo. 7 - Удаление CUNBA с устройства
+Echo. 8 - Разрешить/запретить встроенную клавиатуру
+Echo. 9 - Удаление иероглифов из имени WiFi сети
+Echo. 0 - ВЫХОД
  
 echo.
 Set /p choice="Ваш выбор: "
@@ -290,13 +290,13 @@ echo timezone settings
 echo После установки, блок мультимедиа автоматически будет перезагружен 
 Echo Выберите установки:
 Echo.
-Echo 1 - GMT+1 Europe/Belgrade
-Echo 2 - GMT+2 Europe/Kaliningrad
-Echo 3 - GMT+3 Москва
-Echo 4 - GMT+4 Томск/Новосибирск
-Echo 5 - GMT+5 Europe/Samara
-Echo 8 - GMT+8 Китай/Владивосток
-Echo 0 - ВОЗВРАТ в предыдущее меню
+Echo. 1 - GMT+1 Europe/Belgrade
+Echo. 2 - GMT+2 Europe/Kaliningrad
+Echo. 3 - GMT+3 Москва
+Echo. 4 - GMT+4 Томск/Новосибирск
+Echo. 5 - GMT+5 Europe/Samara
+Echo. 8 - GMT+8 Китай/Владивосток
+Echo. 0 - ВОЗВРАТ в предыдущее меню
  
 echo.
 Set /p choice="Ваш выбор: "
@@ -380,11 +380,11 @@ adb -d shell getprop ro.bootimage.build.date.utc >"osdate.txt"
 set /p times=<osdate.txt
 if times GTR osversion ( 
 	echo WOW ! Устанавливаем на последнюю прошивку
-	pause
+	
 )
 if times LEQ osversion ( 
 	echo WOW ! Устанавливаем НА НЕ последнюю прошивку
-	pause
+	
 )
 if %DEBUGMODE% ==1 (
 	if %verver% == 11 echo Рестайлинг
@@ -405,7 +405,7 @@ if %cpuver% == nxp (
 echo CPU %cpuver% on android %verver%
 if %DEBUGMODE% ==1 pause
 rem вариант неудачного получения типа CPU adb -d shell dumpsys cpuinfo
-if %DEBUGMODE% ==1 (echo "ПРОВЕРЯЕМ НАЛИЧИЕ CUNBA")
+if %DEBUGMODE% ==1 (echo. ПРОВЕРЯЕМ НАЛИЧИЕ CUNBA)
 if exist process.txt del process.txt > nul
 adb -d shell pm list packages | find /I "cunba" > process.txt
 if not exist process.txt (
@@ -419,14 +419,18 @@ if %size2% ==  0 (echo CUNBA нет, устанавливаем ПОЛНУЮ в�
 if %DEBUGMODE% ==1 (echo "подтираем хвосты, удаляем временные файлы")
 if exist version.txt del version.txt > nul
 if exist process.txt del process.txt > nul
-f exist cpu.txt del cpu.txt > nul
+if exist cpu.txt del cpu.txt > nul
+if exist osdate.txt del osdate.txt > nul"
 :exadb
 exit /b
 :setdns
 if not exist "./adb.exe" (cd ./platform-tools)
-echo.
-echo.
-SET /P pass=Введите 1 для common.dot.dns.yandex.net или 2 для dns10.quad.net:
+echo. ВЫ ПОНИМАЕТЕ ЧТО ВНОСИТЕ ИЗМЕНЕНИЯ В СИСТЕМНЫЕ НАСТРОЙКИ МУЛЬТИМЕДИЯ
+echo. НА ПОЛУЧЕНИЯ ПРОШИВОК ЭТО НЕ ДОЛЖНО СКАЗАТЬСЯ
+ECHO. ВЫ ПРОчИТАЛИ ВСЕ ВЫШЕНАПИСАННОЕ И СОГЛАСНЫ
+echo. Введите ниже 1 для common.dot.dns.yandex.net
+echo. 2 для dns10.quad.net, 3 для возврата в меню
+SET /P pass=Введите 1, 2 или 3 
 if %TESTMODE% == 1 (
 	echo Введено %pass%
 	echo нажмите любую клавишу
@@ -434,9 +438,8 @@ if %TESTMODE% == 1 (
 	goto :setdns_ex
 )
 adb -d shell settings put global private_dns_mode hostname
-rem testtesttest
 adb -d shell settings put global private_dns_default_mode hostname
-rem test_end
+if %pass% == 3 exit /b
 if %pass% == 1 (
 	adb -d shell settings put global private_dns_specifier common.dot.dns.yandex.net
 	adb -d shell settings put global captive_portal_fallback_url http://api.browser.yandex.ru/generate_204
@@ -518,15 +521,20 @@ exit /b
 :keyb
 cls
 if not exist "./adb.exe" (cd ./platform-tools)
-echo.
-echo.
-SET /P pass=Введите 1 для РАЗРЕШИТЬ или 2 для ЗАПРЕТИТЬ родную клавиатуру:
+echo. КАТЕГОРИЧЕСКИ РЕКОМЕНДУТСЯ УСТАНОВКА APK СТОРОННЕЙ КЛАВИАТУРЫ
+echo. ПЕРЕД ПРОДОЛЖЕНИЕМ ВЫПОЛНЕНИЯ СКРИПТА
+echo. Введите 1 для РАЗРЕШИТЬ
+echo. 2 для ЗАПРЕТИТЬ родную клавиатуру
+echo. 3 вернуться в предыдущее меню
+echo. 
+SET /P pass=Введите 1 или 2 или 3 :
 if %TESTMODE% == 1 (
-	echo Введено %pass%
-	echo нажмите любую клавишу
+	echo. Введено %pass%
+	echo. нажмите любую клавишу
 	pause >nul
 	goto :kbend
 )
+if %pass% == 3 goto :kbend
 adb -d root
 if %pass% == 1 (
 	echo. Восстанавливаем разрешения для родной клавиатуры
@@ -543,7 +551,9 @@ rem	adb -d shell pm enable com.android.inputmethod.latin
 rem	adb -d shell pm disable com.qinggan.app.qgime.second
 rem	adb -d shell pm disable com.android.inputmethod.latin
 )
-echo Нажмите любую клавишу, для продолжения, потребуется перезагрузка головного устройства
+echo. Нажмите любую клавишу для продолжения
+echo. Возможно, потребуется перезагрузка головного устройства
+SET pass=
 pause >nul
 rem if %TESTMODE% == 0 adb -d reboot
 :kbend
@@ -565,6 +575,7 @@ adb -d root
 adb -d shell settings put global device_name ''
 adb -d shell settings put global device_name_suffix %pass%
 adb -d shell settings put global device_name_sample %pass%
+SET pass=
 :wifiend
 exit /b
 rem дальше обработка ошибок
