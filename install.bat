@@ -95,8 +95,9 @@ if not exist dev.txt (
 )
 for %%i in ("dev.txt") do set /a size1=%%~Zi > nul
 if  %size1% ==  28 ( echo. ------ВНИМАНИЕ
-	echo NO DEVICE CONNECTED НОТЕБУК НЕ ВИДИТ ПОДСОЕДИНЕННОЙ МАШИНЫ
-	ECHO ПРОВЕРЬТЕ ПОДКЛЮЧЕНИЕ И ЗАПУСТИТЕ СКРИПТ СНОВА
+	echo.        NO DEVICE CONNECTED 
+	echo НОТЕБУК НЕ ВИДИТ ПОДСОЕДИНЕННОЙ МАШИНЫ
+	ECHO. ПРОВЕРЬТЕ ПОДКЛЮЧЕНИЕ И ЗАПУСТИТЕ СКРИПТ СНОВА
 	del dev.txt >nul
 	echo press any key to exit
 	pause >nul
@@ -186,10 +187,12 @@ goto :ex3
 ) ELSE (
 	:zone2
 	echo Обнаружен установленный ланчер. Выберите
-	Echo 1 - удалить и установить заново. все добавленные приложения будут удалены из ланчера (не с машины)
-	Echo 2 - установить ланчер из установочного пакета поверх имеющегося. Все настройки будут сохранены
-	Echo 3 - пропустить установку ланчера
-	 echo.
+	Echo. 1 - удалить и установить заново. все добавленные
+	echo.     приложения будут удалены из ланчера (не с машины)
+	Echo. 2 - установить ланчер из поверх имеющегося.
+	echo.      Все настройки будут сохранены
+	Echo. 3 - пропустить установку ланчера
+	echo.
 	Set /p choice="Ваш выбор: "
 	if not defined choice goto :zone2
 	if "%choice%"=="1" (
@@ -233,13 +236,12 @@ echo. ПЕРЕД ПРОДОЛЖЕНИЕМ ВКЛЮЧИТЕ В ТВИКСЕ
 echo. НА ЭКРАНЕ ПЕРЕОПРЕДЕЛЕНИЕ КНОПКИ ЛАНЧЕРА
 echo.   и Плавающую кнопку
 pause
-echo. Нажмите любую клавишу для перезагрузки мультимедиа и продолжения
+echo. Нажмите любую клавишу для перезагрузки MM
 echo.
 pause >nul
 adb -d reboot
 rem goto :addons
 :addons
-rem reserved for future use
 rem ниже основное меню 
 cls
 :m1
@@ -339,7 +341,8 @@ if %DEBUGMODE% ==1 (
 adb -d push ./../source/multidisplay_anim_app_white.list /system/etc/qinggan
 :free_end
 if errorlevel 0 (
-	echo Cписок приложений для переноса между экранами обновлён, нажмите любую клавишу
+	echo. Cписок приложений для переноса обновлён,
+	echo. нажмите любую клавишу
 	) else (
 	echo oooooooooooo Ошибка копирования файла ooooooooooooooooo
 )
@@ -428,11 +431,15 @@ if exist osdate.txt del osdate.txt > nul"
 exit /b
 :setdns
 if not exist "./adb.exe" (cd ./platform-tools)
-echo. ВЫ ПОНИМАЕТЕ ЧТО ВНОСИТЕ ИЗМЕНЕНИЯ В СИСТЕМНЫЕ НАСТРОЙКИ МУЛЬТИМЕДИЯ
-echo. НА ПОЛУЧЕНИЯ ПРОШИВОК ЭТО НЕ ДОЛЖНО СКАЗАТЬСЯ
+cls
+echo. ВЫ ПОНИМАЕТЕ ЧТО ВНОСИТЕ ИЗМЕНЕНИЯ 
+echo. В СИСТЕМНЫЕ НАСТРОЙКИ МУЛЬТИМЕДИЯ
+echo. На получение прошивок это не должно сказаться
 ECHO. ВЫ ПРОчИТАЛИ ВСЕ ВЫШЕНАПИСАННОЕ И СОГЛАСНЫ
-echo. Введите ниже 1 для common.dot.dns.yandex.net
-echo. 2 для dns10.quad.net, 0 для возврата в меню
+echo.
+echo. Введите 1 для common.dot.dns.yandex.net
+echo. Введите 2 для dns10.quad.net 
+echo. Введите 0 для возврата в меню
 SET /P pass=Введите 1, 2 или 0 
 if %TESTMODE% == 1 (
 	echo Введено %pass%
@@ -457,7 +464,7 @@ pause > nul
 exit /b
 :userapk
 cls
-if %DEBUGMODE% ==1 (echo Проверим наличие каталога с приложениями)
+if %DEBUGMODE% ==1 (echo. Проверим наличие каталога с приложениями)
 if not exist ".././apk2" (
 	echo.
 	echo. каталог пользовательских файлов ./apk2 отсутствует 
