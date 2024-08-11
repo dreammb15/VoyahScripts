@@ -521,8 +521,9 @@ exit /b
 :keyb
 cls
 if not exist "./adb.exe" (cd ./platform-tools)
-echo. КАТЕГОРИЧЕСКИ РЕКОМЕНДУТСЯ УСТАНОВКА APK СТОРОННЕЙ КЛАВИАТУРЫ
-echo. ПЕРЕД ПРОДОЛЖЕНИЕМ ВЫПОЛНЕНИЯ СКРИПТА
+echo. КАТЕГОРИЧЕСКИ РЕКОМЕНДУТСЯ УСТАНОВКА
+echo. .APK СТОРОННЕЙ КЛАВИАТУРЫ ПЕРЕД 
+echo. ПРОДОЛЖЕНИЕМ ВЫПОЛНЕНИЯ СКРИПТА
 echo. Введите 1 для РАЗРЕШИТЬ
 echo. 2 для ЗАПРЕТИТЬ родную клавиатуру
 echo. 3 вернуться в предыдущее меню
@@ -561,6 +562,10 @@ exit /b
 goto :end
 :wifiname
 SET pass=
+echo.
+echo. Введите желаемое имя для WiFi сети
+echo. сети БЕЗ пробелов английскими буквами
+echo. ИЛИ 0 для возврата в меню
 SET /P pass=Введите желаемое имя для WiFi сети БЕЗ пробелов английскими буквами:
 if %TESTMODE% == 1 (
 	Echo Введено имя сети: %pass%
@@ -571,6 +576,7 @@ if %TESTMODE% == 1 (
 	pause
 	goto :wifiend
 )
+if %pass% == 0 goto :wifiend
 adb -d root
 adb -d shell settings put global device_name ''
 adb -d shell settings put global device_name_suffix %pass%
