@@ -18,6 +18,7 @@ set size2=22191081
 set cunba=0
 :: время создания 6.0.5 за сутки до
 set times=1720819728
+set osversion=6
 ::
 :: version 20.07.2024 16:51
 :: добавлено изменение DNS
@@ -369,6 +370,16 @@ if %DEBUGMODE% ==1 (echo "ОПРЕДЕЛЯЕМ ВЕРСИЮ АНДРОИД")
 adb -d shell getprop ro.build.version.release > "version.txt"
 if not exist version.txt goto :writeerror
 set /p verver=< version.txt
+adb -d shell getprop ro.bootimage.build.date.utc >"osdate.txt"
+set /p times=<osdate.txt
+if times>=osversion ( 
+	echo WOW ! Устанавливаем на последнюю прошивку
+	pause
+)
+if times LE osversion ( 
+	echo WOW ! Устанавливаем НА НЕ последнюю прошивку
+	pause
+)
 if %DEBUGMODE% ==1 (
 	if %verver% == 11 echo Рестайлинг
 	if %verver% == 9 echo Дорестайлинг
