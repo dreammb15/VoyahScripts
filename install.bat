@@ -207,12 +207,11 @@ goto :ex3
 	cls
 	goto :zone2
 	:ex2
-	if %DEBUGMODE% ==1 (echo подтираем хвосты, удаляем временные файлы)
+	if %DEBUGMODE% ==1 (echo. подтираем хвосты, удаляем временные файлы)
 	if exist process.txt del process.txt > nul
-	rem окончание проверки*********************************************************************************************************
-		if %DEBUGMODE% == 1 (echo Лаунчер установлен)
+	if %DEBUGMODE% == 1 (echo. Лаунчер установлен)
 )
-echo Раздаем права на приложение
+echo. Раздаем права на приложение
 adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.SYSTEM_ALERT_WINDOW
 if not errorlevel 0 goto :err2
 adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.READ_LOGS
@@ -220,20 +219,21 @@ adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.RECORD_AUDIO
 adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.WRITE_EXTERNAL_STORAGE
 adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.WRITE_SECURE_SETTINGS
 if %DEBUGMODE% == 1 (
-	echo Права на приложение раздали
-	echo Поехали! (с)
+	echo. Права на приложение раздали
+	echo. Поехали! (с)
 )
 adb -d shell am start ru.kachalin.voyahtweaks/.android.activity.main.MainActivity
-if errorlevel 0 (echo УСПЕШНО) ELSE (
-	echo oooooooooooo Ошибка установки автозапуска ooooooooooooooooo
+if errorlevel 0 (echo. УСПЕШНО) ELSE (
+	echo. ooooooooo Ошибка установки автозапуска oooooooooooooo
 	)
 
 echo.
 echo.
-echo ПЕРЕД ПРОДОЛЖЕНИЕМ ВКЛЮЧИТЕ В ТВИКСЕ НА ГУ ПЕРЕОПРЕДЕЛЕНИЕ КНОПКИ ЛАНЧЕРА и Плавающую кнопку
-echo.
+echo. ПЕРЕД ПРОДОЛЖЕНИЕМ ВКЛЮЧИТЕ В ТВИКСЕ
+echo. НА ЭКРАНЕ ПЕРЕОПРЕДЕЛЕНИЕ КНОПКИ ЛАНЧЕРА
+echo.   и Плавающую кнопку
 pause
-echo Нажмите любую клавишу для перезагрузки мультимедиа и продолжения
+echo. Нажмите любую клавишу для перезагрузки мультимедиа и продолжения
 echo.
 pause >nul
 adb -d reboot
@@ -251,7 +251,8 @@ echo.         (c) 2024 все права защищены
 if %DEBUGMODE% == 1 (
 echo.     CPU %cpuver% on android %verver% cunba %cunba%
 )
-Echo Выберите возможности программы установки:
+echo.
+Echo. Выберите возможности программы установки:
 Echo.
 if %cunba% == 0 (
 	Echo. 1 - Установка TWEAKS + LAUNCHER
@@ -286,9 +287,10 @@ goto m1
 :zone
 set choice=
 cls
-echo timezone settings
-echo После установки, блок мультимедиа автоматически будет перезагружен 
-Echo Выберите установки:
+echo. timezone settings
+echo. После установки, блок мультимедиа 
+echo. будет автоматически перезагружен 
+Echo. Выберите установки:
 Echo.
 Echo. 1 - GMT+1 Europe/Belgrade
 Echo. 2 - GMT+2 Europe/Kaliningrad
@@ -301,8 +303,8 @@ Echo. 0 - ВОЗВРАТ в предыдущее меню
 echo.
 Set /p choice="Ваш выбор: "
 if %TESTMODE% ==1 (
-	echo сделан выбор %choice%
-	echo нажмите любую клавишу для возврата в главное меню
+	echo. сделан выбор %choice%
+	echo. нажмите любую клавишу для возврата в главное меню
 	pause >nul
 	goto :m1
 )
@@ -315,7 +317,8 @@ if "%choice%"=="5" (adb -d shell setprop persist.sys.timezone "Europe/Samara")
 if "%choice%"=="8" (adb -d shell setprop persist.sys.timezone "Asia/Vladivostok")
 if "%choice%"=="0" (goto :m1)
 adb -d reboot
-goto :zone
+Set choice=
+rem goto :zone
 exit /b
 
 :free
