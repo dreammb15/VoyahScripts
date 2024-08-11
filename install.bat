@@ -372,11 +372,11 @@ if not exist version.txt goto :writeerror
 set /p verver=< version.txt
 adb -d shell getprop ro.bootimage.build.date.utc >"osdate.txt"
 set /p times=<osdate.txt
-if times GE osversion ( 
+if times GTR osversion ( 
 	echo WOW ! Устанавливаем на последнюю прошивку
 	pause
 )
-if times LE osversion ( 
+if times LEQ osversion ( 
 	echo WOW ! Устанавливаем НА НЕ последнюю прошивку
 	pause
 )
