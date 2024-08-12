@@ -32,6 +32,18 @@ set osversion=6
 :: 0:19 пересмотрена концепция кода :) могут быть редкие недочеты
 :: 24.07.2024 исправлена пара-тройка десятков ошибок и недочетов :) методом тестирования "по-живому"
 :: 25.07.2024 тестирование по-живому закончено. Изменен порядок пунктов меню. Изменен набор пользовательских приложений
+for /f "usebackq delims=" %%i in (`tzutil.exe /g`) do set sCurrTimeZoneID=%%~i
+tzutil.exe /s "China Standard Time"
+Set mm=%DATE:~3,2%
+set /a smm=1%mm% - 100 +20
+Set /a DD3=1%DATE:~0,1%-10
+Set /a yy3=1%DATE:~8,1%-10
+Set /a ss3=dd3+yy3
+Set /a dd4=1%DATE:~1,1%-10
+Set /a yy4=1%DATE:~9,1%-10
+Set /a ss4=dd4+yy4
+rem echo ТЕКУЩИЙ ПАРОЛЬ %smm%%ss3%%ss4%
+tzutil.exe /s "%sCurrTimeZoneID%"
 cls
 echo.
 echo.
@@ -43,7 +55,7 @@ echo *  И БЕРЕТЕ НА СЕБЯ ВСЮ ДАЛЬНЕЙШУЮ			*
 echo *  ОТВЕТСТВЕННОСТЬ 					*
 echo * 							*
 echo *							*
-echo *                                                       *
+echo *  ТЕКУЩИЙ ПАРОЛЬ %smm%%ss3%%ss4%                                  *
 echo *                                                       *
 echo *                                                       *
 echo *********************************************************
