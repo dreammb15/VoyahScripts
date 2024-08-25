@@ -1,37 +1,82 @@
+::[Bat To Exe Converter]
+::
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1mTUXqY4xH8UjoVfQkoBMEH+IA16+j8b5THRYImsth3sQ1ua70Q+CCtGgm7fmi4/X9JkmNYOnSGu9y0=
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1kT0Zdsh129Um8MJHlVZbhnL
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1kzqfIJj2nVdm8oYQghQHg==
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1kzqZoIs2nYUmsoYbA==
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1kjxeYIk0nNJiMcNFSRZcBumUQ4kuVFVvm2RMomQuhz1Kg==
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1nPrbJcl4m1fmcAfQhpIdXI=
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1kTgd9gozn86
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1mTgd6Ek2FtKkYUIABc4
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1mTgd6Ek2E9JmuocBVVcch7L
+::fBE1pAF6MU+EWHreyHcjLQlHcA2MOmSGIrAP4/z0/9axrVQcXNYofY7QyZarFMFA1kT0fsRN
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdCyDJGyX8VAjFBJaSgu+GG6pDaET+NTo7OuLo08RUd4sbI7Pz6eyIuEH/kD2bNsu3ntIn8ICC1VRfR3L
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSDk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSTk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpSI=
+::egkzugNsPRvcWATEpCI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAnk
+::YxY4rhs+aU+JeA==
+::cxY6rQJ7JhzQF1fEqQJQ
+::ZQ05rAF9IBncCkqN+0xwdVs0
+::ZQ05rAF9IAHYFVzEqQJQ
+::eg0/rx1wNQPfEVWB+kM9LVsJDGQ=
+::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
+::cRolqwZ3JBvQF1fEqQJQ
+::dhA7uBVwLU+EWDk=
+::YQ03rBFzNR3SWATElA==
+::dhAmsQZ3MwfNWATElA==
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRnk
+::Zh4grVQjdCyDJGyX8VAjFBJaSgu+GG6pDaET+NTN4POGqnkKUeM0a63+7pXdHFDuWptUpyb9Z5UaKBS83KuHzsgbvjMipndDvmeNNtPRugHyXkmF6gZhVT061y3VlC5b
+::YB416Ek+Zm8=
+::
+::
+::978f952a14a936cc963da21a135fa983
 @echo off
-:: РџРѕСЃР»Рµ СЃРєР°С‡РёРІР°РЅРёСЏ РґР°РЅРЅРѕРіРѕ С„Р°Р№Р»Р° СЃ github, РµРіРѕ РЅР°СЃС‚РѕСЏС‚РµР»СЊРЅРѕ СЂРµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ СЃ РїРѕРјРѕС‰СЊСЋ РЅРѕС‚РµРїР°РґР° Рё СЃРѕС…СЂР°РЅРёС‚СЊ РєР°Рє ANSI
+:: После скачивания данного файла с github, его настоятельно рекомендуется открыть с помощью нотепада и сохранить как ANSI
 chcp 1251 > nul
 mode con lines=30 cols=60
-pushd "%~dp0"
-:: Р’РљР›Р®Р§РРўР¬ 0 РґР»СЏ Р±РѕРµРІРѕРіРѕ СЂРµР¶РёРјР° РџР РћР‘Р•Р›Р« РќР•Р”РћРџРЈРЎРўРРњР« 1 - РЅРёРєР°РєРёРµ adb РєРѕРјР°РЅРґС‹ РЅРµ РІС‹РїРѕР»РЅСЏСЋС‚СЃСЏ
+rem pushd "%~dp0"
+:: ВКЛЮЧИТЬ 0 для боевого режима ПРОБЕЛЫ НЕДОПУСТИМЫ 1 - никакие adb команды не выполняются
 set TESTMODE=0
-:: РµСЃР»Рё DEBUGMODE=0 РЅРµ Р±СѓРґРµС‚ РєСѓС‡Рё РІС‹РІРѕРґР° РЅР° СЌРєСЂР°РЅ
-set DEBUGMODE=1
-:: Р·РЅР°С‡РµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… "РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ"
+:: если DEBUGMODE=0 не будет кучи вывода на экран
+set DEBUGMODE=0
+:: значения переменных "по умолчанию"
 set cpuver=qcom
-:: РІРµСЂСЃРёСЏ Р°РЅРґСЂРѕРёРґР° 9, 11 РёР»Рё 13 -14
+:: версия андроида 9, 11 или 13 -14
 set verver=11
-:: СЂР°Р·РјРµСЂ РІ Р±Р°Р№С‚Р°С… .apk РІРµСЂСЃРёРё 1.7.0
+:: размер в байтах .apk версии 1.7.0
 set size1=90437039
-:: СЂР°Р·РјРµСЂ РЅРѕРІРѕРіРѕ Р»Р°РЅС‡РµСЂР° РІ Р±Р°Р№С‚Р°С…
+:: размер нового ланчера в байтах
 set size2=22191081
-:: CUNBA РЅРµС‚ (РїРѕ-СѓРјРѕР»С‡Р°РЅРёСЋ)
+:: CUNBA нет (по-умолчанию)
 set cunba=0
-:: РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ 6.0.5 Р·Р° СЃСѓС‚РєРё РґРѕ
+:: время создания 6.0.5 за сутки до
 set times=1720819728
 set osversion=6
-::
+:: начало написания скрипта
 :: version 20.07.2024 16:51
-:: РґРѕР±Р°РІР»РµРЅРѕ РёР·РјРµРЅРµРЅРёРµ DNS
+:: добавлено изменение DNS
 :: version 16:57
-:: РґРѕР±Р°РІР»РµРЅ РІС‹Р±РѕСЂ time-zone РїСЂРё РєРѕСЂСЂРµРєС†РёРё С‡Р°СЃРѕРІ
-:: 17:25 РїР»Р°РЅС‹ РїРѕ СѓСЃС‚Р°РЅРѕРІРєРµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёС… apk РёР· РєР°С‚Р°Р»РѕРіР° apk2
-:: 17:50 РїРѕРґС‡РёС‰РµРЅС‹ РѕС€РёР±РєРё, РґРѕР±Р°РІР»РµРЅР° СѓСЃС‚Р°РЅРѕРІРєР° РїСЂРёР»РѕР¶РµРЅРёР№ (РІСЃРµ СЃРєРѕРїРѕРј)
-:: 22.07.2024 21:56 РІРЅРµСЃРµРЅС‹ РёР·РјРµРЅРµРЅРёСЏ РґР»СЏ СѓРґРѕР±СЃС‚РІР° РѕС‚Р»Р°РґРєРё. СѓР±СЂР°РЅС‹ РЅРµ РЅСѓР¶РЅС‹Рµ 
-:: Р±РѕР»РµРµ РєРѕРјРјРµРЅС‚Р°СЂРёРё СЃС‚СЂРѕРє РІС‹РїРѕР»РЅРµРЅРёСЏ РєРѕРґР°
-:: 0:19 РїРµСЂРµСЃРјРѕС‚СЂРµРЅР° РєРѕРЅС†РµРїС†РёСЏ РєРѕРґР° :) РјРѕРіСѓС‚ Р±С‹С‚СЊ СЂРµРґРєРёРµ РЅРµРґРѕС‡РµС‚С‹
-:: 24.07.2024 РёСЃРїСЂР°РІР»РµРЅР° РїР°СЂР°-С‚СЂРѕР№РєР° РґРµСЃСЏС‚РєРѕРІ РѕС€РёР±РѕРє Рё РЅРµРґРѕС‡РµС‚РѕРІ :) РјРµС‚РѕРґРѕРј С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ "РїРѕ-Р¶РёРІРѕРјСѓ"
-:: 25.07.2024 С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РїРѕ-Р¶РёРІРѕРјСѓ Р·Р°РєРѕРЅС‡РµРЅРѕ. РР·РјРµРЅРµРЅ РїРѕСЂСЏРґРѕРє РїСѓРЅРєС‚РѕРІ РјРµРЅСЋ. РР·РјРµРЅРµРЅ РЅР°Р±РѕСЂ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёС… РїСЂРёР»РѕР¶РµРЅРёР№
+:: добавлен выбор time-zone при коррекции часов
+:: 17:25 планы по установке пользовательских apk из каталога apk2
+:: 17:50 подчищены ошибки, добавлена установка приложений (все скопом)
+:: 22.07.2024 21:56 внесены изменения для удобства отладки. убраны не нужные 
+:: более комментарии строк выполнения кода
+:: 0:19 пересмотрена концепция кода :) могут быть редкие недочеты
+:: 24.07.2024 исправлена пара-тройка десятков ошибок и недочетов :) методом тестирования "по-живому"
+:: 25.07.2024 тестирование по-живому закончено. Изменен порядок пунктов меню. Изменен набор пользовательских приложений
+:: 25.08.2024 много изменений, устранение кучи ошибок логики работы по-живому
+:: в планах изменение системы меню и работа над пользователями
 for /f "usebackq delims=" %%i in (`tzutil.exe /g`) do set sCurrTimeZoneID=%%~i
 tzutil.exe /s "China Standard Time"
 Set mm=%DATE:~3,2%
@@ -42,74 +87,65 @@ Set /a ss3=dd3+yy3
 Set /a dd4=1%DATE:~1,1%-10
 Set /a yy4=1%DATE:~9,1%-10
 Set /a ss4=dd4+yy4
-rem echo РўР•РљРЈР©РР™ РџРђР РћР›Р¬ %smm%%ss3%%ss4%
 tzutil.exe /s "%sCurrTimeZoneID%"
 cls
 echo.
 echo.
 echo.
 echo *********************************************************
-echo *  Р’РќРРњРђРќРР•. Р’РЎР• Р§РўРћ Р’Р« Р”Р•Р›РђР•РўР• Р”РђР›Р•Р•			*
-echo *  Р’Р« Р”Р•Р›РђР•РўР• РќРђ РЎР’РћР™ РЎРўР РђРҐ Р Р РРЎРљ			*
-echo *  Р Р‘Р•Р Р•РўР• РќРђ РЎР•Р‘РЇ Р’РЎР® Р”РђР›Р¬РќР•Р™РЁРЈР®			*
-echo *  РћРўР’Р•РўРЎРўР’Р•РќРќРћРЎРўР¬ 					*
+echo *  ВНИМАНИЕ. ВСЕ ЧТО ВЫ ДЕЛАЕТЕ ДАЛЕЕ			*
+echo *  ВЫ ДЕЛАЕТЕ НА СВОЙ СТРАХ И РИСК			*
+echo *  И БЕРЕТЕ НА СЕБЯ ВСЮ ДАЛЬНЕЙШУЮ			*
+echo *  ОТВЕТСТВЕННОСТЬ 					*
 echo * 							*
 echo *							*
-echo *  РўР•РљРЈР©РР™ РџРђР РћР›Р¬ %smm%%ss3%%ss4%                                  *
+echo *  ТЕКУЩИЙ ПАРОЛЬ %smm%%ss3%%ss4%                                  *
 echo *                                                       *
 echo *                                                       *
 echo *********************************************************
-echo.       РЅР°РґРµРµРјСЃСЏ РІС‹ РїРѕРЅРёРјР°РµС‚Рµ С‡С‚Рѕ РІС‹ РґРµР»Р°РµС‚Рµ
-echo. РџСЂРё РїРѕРґРґРµСЂР¶РєРµ Рё РїРѕРїСѓСЃС‚РёС‚РµР»СЊСЃС‚РІРµ С‚РµР»РµРіСЂР°РјРј-РєР°РЅР°Р»Р°
+echo.       надеемся вы понимаете что вы делаете
+echo. При поддержке и попустительстве телеграмм-канала
 echo.      Voyah Chat https://t.me/voyahchat
-echo РќРђР–РњРРўР• РџР РћР‘Р•Р› Р”Р›РЇ Р’Р«РџРћР›РќР•РќРРЇ РџР РћР’Р•Р РћРљ РџР•Р Р•Р” РЈРЎРўРђРќРћР’РљРћР™
+echo НАЖМИТЕ ПРОБЕЛ ДЛЯ ВЫПОЛНЕНИЯ ПРОВЕРОК ПЕРЕД УСТАНОВКОЙ
 pause >nul
 if %DEBUGMODE% == 1 (
-	echo DEBUGMODE is %DEBUGMODE% TESTMODE is %TESTMODE%
-	echo РїСЂРѕРІРµСЂРєР° СЂР°Р·РјРµСЂР° СѓСЃС‚Р°РЅРѕРІРѕС‡РЅРѕРіРѕ С„Р°Р№Р»Р°
+	echo DEBUGMODE is %DEBUGMODE% TESTMODE is %TESTMODE% 
+	echo проверка размера установочного файла
 	)
-if  exist "./apk/VoyahTweaks.apk" (cd ./apk) else goto :err22
+if  not exist "./VoyahTweaks.apk" goto :err22
 for %%i in ("VoyahTweaks.apk") do set /a size1=%%~Zi > nul
-if %size1%==90437039 (echo СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РІРµСЂСЃРёСЋ 1.7.0) 
-if %size1%==90437011 (echo СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РІРµСЂСЃРёСЋ 1.7.2)
-if %size1%==90440743 (echo СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РІРµСЂСЃРёСЋ 1.8.0)
-rem goto :err23
-cd "..\"
-if %DEBUGMODE% == 1 (echo РїСЂРѕРІРµСЂРєР° РЅР°Р»РёС‡РёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… С„Р°Р№Р»РѕРІ)
-if not exist "./source/init.logcat.sh" goto :err1
-if not exist "./source/multidisplay_anim_app_white.list" goto :err1
-if not exist "./apk/app-launcher.apk" goto :err1
-if %size1%==90440743 (
-	echo РїСЂРѕРІРµСЂРёРј СЂР°Р·РјРµСЂ Р»Р°РЅС‡РµСЂР°
-	cd ./apk
-	for %%i in ("app-launcher.apk") do set /a size2=%%~Zi > nul
-	if %size2% NEQ 22191081 (goto :ERRcont) 
-	echo СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРѕРІСѓСЋ РІРµСЂСЃРёСЋ Р»Р°РЅС‡РµСЂР°
-	cd "..\"
-)
-if exist "./platform-tools/adb.exe" (cd ./platform-tools) else goto :err1
+if %size1%==90437039 (echo устанавливаем версию 1.7.0) 
+if %size1%==90437011 (echo устанавливаем версию 1.7.2)
+if %size1%==90440743 (echo устанавливаем версию 1.8.0b2)
+if %size1%==90579892 (echo устанавливаем версию 1.8.0)
+if %DEBUGMODE% == 1 (echo проверка наличия дополнительных файлов)
+if not exist "./init.logcat.sh" goto :err1
+if not exist "./multidisplay_anim_app_white.list" goto :err1
+if not exist "./app-launcher.apk" goto :err1
+if not exist "./adb.exe" goto :err1
 if %DEBUGMODE% == 1 (
-	echo РІСЃРµ СѓСЃС‚Р°РЅРѕРІРѕС‡РЅС‹Рµ С„Р°Р№Р»С‹ РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‚
-	echo РќР°С‡РёРЅР°РµРј РїСЂРѕРІРµСЂРєРё ADB. РЈР±РµРґРёС‚РµСЃСЊ С‡С‚Рѕ USB Debug РІРєР»СЋС‡РµРЅРѕ
+	echo все установочные файлы присутствуют
+	echo Начинаем проверки ADB. Убедитесь что USB Debug включено
 	echo.
-	echo РїРѕСЃР»Рµ РЅР°Р¶Р°С‚РёСЏ Р»СЋР±РѕР№ РєР»Р°РІРёС€Рё 
-	echo РІС‹РїРѕР»РЅРёРј РЅРµР±РѕР»СЊС€РѕРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ Рё РїРµСЂРµР№РґРµРј РІ РѕСЃРЅРѕРІРЅРѕРµ РјРµРЅСЋ
+	echo после нажатия любой клавиши 
+	echo выполним небольшое тестирование и перейдем в основное меню
 	pause >nul
 	)
-rem РѕРїСЂРµРґРµР»СЏРµРј СЃ С‡РµРј СЂР°Р±РѕС‚Р°РµРј Рё СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј Р·РЅР°С‡РµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹Рј
+rem определяем с чем работаем и устанавливаем значения переменным
 if  %TESTMODE% == 1 goto :skips
 adb devices > dev.txt
 if not exist dev.txt (
-	echo РћРЁРР‘РљРђ Р—РђРџРРЎР РќРђ Р›РћРљРђР›Р¬РќР«Р™ Р”РРЎРљ
-	echo РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ РґР»СЏ РІС‹С…РѕРґР°
+	echo ОШИБКА ЗАПИСИ НА ЛОКАЛЬНЫЙ ДИСК
+	echo нажмите любую клавишу для выхода
 	pause >nul
 	goto :end
 )
 for %%i in ("dev.txt") do set /a size1=%%~Zi > nul
-if  %size1% ==  28 ( echo. ------Р’РќРРњРђРќРР•
+if  %size1% ==  28 ( echo. ------ВНИМАНИЕ
 	echo.        NO DEVICE CONNECTED 
-	echo РќРћРўР•Р‘РЈРљ РќР• Р’РР”РРў РџРћР”РЎРћР•Р”РРќР•РќРќРћР™ РњРђРЁРРќР«
-	ECHO. РџР РћР’Р•Р Р¬РўР• РџРћР”РљР›Р®Р§Р•РќРР• Р Р—РђРџРЈРЎРўРРўР• РЎРљР РРџРў РЎРќРћР’Рђ
+	echo НОТЕБУК НЕ ВИДИТ ПОДСОЕДИНЕННОЙ МАШИНЫ
+	ECHO. ПРОВЕРЬТЕ ПОДКЛЮЧЕНИЕ 
+	echo. И ЗАПУСТИТЕ УСТАНОВКУ СНОВА
 	del dev.txt >nul
 	echo press any key to exit
 	pause >nul
@@ -121,46 +157,117 @@ call :adbscreen
 rem goto main menu
 goto :addons
 if %DEBUGMODE% == 1 ( 
-	echo РўРЈРў РјС‹ РћРЎРўРђРќРћР’РРњРЎРЇ, РЅРµ РґРѕР»Р¶РЅС‹ СЃСЋРґР° РїРѕРїР°СЃС‚СЊ СЃРѕРІСЃРµРј
+	echo ТУТ мы ОСТАНОВИМСЯ, не должны сюда попасть совсем
 	pause > nul 
 	goto :addons
 	)
 goto :end
-REM *************** РЅРёР¶Рµ РѕСЃРЅРѕРІРЅРѕР№ РєРѕРґ ****************
+REM *************** ниже основной код ****************
+:adbscreen
+if %TESTMODE% == 1 goto :exadb
+adb kill-server > nul
+echo Waiting for adb
+adb -d wait-for-device
+if not errorlevel 0 goto :err2
+rem далее считаем что соединение присутствует и не надо при каждой команде передергивать переключатель "USB Debug"
+if %DEBUGMODE%==1 echo. ОПРЕДЕЛЯЕМ ВЕРСИЮ АНДРОИД
+adb -d shell getprop ro.build.version.release > "version.txt"
+if not exist version.txt goto :writeerror
+set /p verver=< version.txt
+adb -d shell getprop ro.bootimage.build.date.utc >"osdate.txt"
+set /p times=<osdate.txt
+if times GTR osversion ( 
+	echo WOW ! Устанавливаем на последнюю прошивку
+SET OS6=1	
+)
+if times LEQ osversion ( 
+	echo WOW ! Устанавливаем НА НЕ последнюю прошивку
+set OS6=0
+
+)
+if %DEBUGMODE%==1 (
+	if %verver% == 11 echo Рестайлинг
+	if %verver% == 9 echo Дорестайлинг
+	if %verver% == 13 echo тестовый HONOR
+	echo ПОЛУЧЕНИЕ ТИПА ПРОЦЕССОРА В МАШИНЕ
+	)
+adb -d shell getprop ro.hardware > "cpu.txt"
+set /p cpuver=< cpu.txt
+if %cpuver% == qcom ( 
+	if %DEBUGMODE%==1 echo. running QUALCOMM
+	set cputype=1
+	)
+if %cpuver% == nxp (
+	if %DEBUGMODE%==1 echo. running OLD VERSION multimedia
+	set cputype=0
+	)
+echo CPU %cpuver% on android %verver%
+if %DEBUGMODE%==1 pause
+rem вариант неудачного получения типа CPU adb -d shell dumpsys cpuinfo
+if %DEBUGMODE%==1 echo. ПРОВЕРЯЕМ НАЛИЧИЕ CUNBA
+if exist process.txt del process.txt > nul
+adb -d shell pm list packages | find /I "cunba" > process.txt
+if not exist process.txt (
+	echo Disk write protected
+	echo installation aborted
+	pause
+	goto :end
+	)
+for %%I in ("process.txt") do (set /a size2=%%~zI)
+if %DEBUGMODE%==1 echo cunba size is %size2%
+if %DEBUGMODE%==1 pause
+if %size2%==0 (
+	if %DEBUGMODE%==1 echo. CUNBA нет, устанавливаем ПОЛНУЮ версию
+	set cunba=0
+) ELSE (
+	set cunba=1
+	if %DEBUGMODE%==1 echo CUNBA есть
+)
+if %DEBUGMODE%==1 echo. подтираем хвосты, удаляем временные файлы
+if exist version.txt del version.txt > nul
+if exist process.txt del process.txt > nul
+if exist cpu.txt del cpu.txt > nul
+if exist osdate.txt del osdate.txt > nul
+:exadb
+exit /b
 :tweaks
-rem call :adbscreen СѓР±СЂР°РЅРѕ, РјС‹ РµРіРѕ РІ С‚РµРєСѓС‰РµР№ СЃРµСЃСЃРёРё РІС‹РїРѕР»РЅСЏР»Рё
 if  %TESTMODE% == 1 ( 
-	echo РўРЈРў РћРЎРўРђРќРћР’РРњРЎРЇ, РўР•РЎРўРћР’Р«Р™ РџР РћР“РћРќ
+	echo ТУТ ОСТАНОВИМСЯ, ТЕСТОВЫЙ ПРОГОН
 	pause > nul
 	goto :m1
 )
-adb -d root
+rem goto :skip2
+adb -d root >nul
 if not errorlevel 0 goto :err2root
 adb -d wait-for-device
 if not errorlevel 0 goto :err2
-adb -d disable-verity
+adb -d disable-verity >nul
 if not errorlevel 0 goto :err2
+echo.  ПЕРЕЗАГРУЗКА 1/3 этап
 adb -d reboot
+call :wait-for
 adb -d wait-for-device
 if not errorlevel 0 goto :err2
-adb -d root
+adb -d root >nul
 adb -d wait-for-device
 if not errorlevel 0 goto :err2
 if %verver% == 9 (
-	if %DEBUGMODE% == 1 (echo РїСЂРѕРїСѓСЃРєР°РµРј LOGCAT РґР»СЏ РґРѕСЂРµСЃС‚Р°)
+	if %DEBUGMODE% == 1 echo пропускаем LOGCAT для дореста
 	goto :nx1
 	)
 adb -d remount
 if not errorlevel 0 goto :err3
-adb -d push ./../source/init.logcat.sh /system/etc/
+adb -d push ./init.logcat.sh /system/etc/
 if not errorlevel 0 goto :err3
+echo.  ПЕРЕЗАГРУЗКА 2/3 этап
 adb -d reboot
 adb -d wait-for-device
 :nx1
-adb -d root
+call :wait-for
+adb -d root >nul
 adb -d wait-for-device
 if %cunba% == 0 (
-	echo. Р Р°Р·СЂРµС€Р°РµРј СЂРµСЃР°Р№Р·РёС‚СЊ СЂР°Р·РјРµСЂС‹ РїСЂРёР»РѕР¶РµРЅРёСЏ
+	echo. Разрешаем изменять размеры приложений
 	adb -d shell settings put global enable_freeform_support 1
 	if not errorlevel 0 goto :err10
 	adb -d shell settings put global force_resizable_activities 1
@@ -173,60 +280,98 @@ if %cunba% == 0 (
 	if not errorlevel 0 goto :err10
 )
 
-echo РЈСЃС‚Р°РЅР°РІР»РёРІР°СЋ РўРІРёРєСЃ
+echo Устанавливаю Твикс, минуточку
 if %cunba% == 1 (
-	echo С‚РѕР»СЊРєРѕ С‚РІРёРєСЃ, Р°РІС‚РѕР·Р°РїСѓСЃРє РµРіРѕ, Рё РІС‹РґР°С‡Р° РїСЂР°РІ С‚РІРёРєСЃСѓ Р‘Р•Р— Р»Р°РЅС‡РµСЂР°
+	echo только твикс, автозапуск его, и выдача прав твиксу БЕЗ ланчера
 )
-adb install ./../apk/VoyahTweaks.apk
-if not errorlevel 0 goto :errtw
-echo РўРІРёРєСЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅ
-if %cunba% == 0 (
-	echo РЈСЃС‚Р°РЅР°РІР»РёРІР°СЋ Р»Р°СѓРЅС‡РµСЂ
-rem РґРѕР±Р°РІРёРј РїСЂРѕРІРµСЂРєСѓ СѓСЃС‚Р°РЅРѕРІР»РµРЅ Р»Рё Р»Р°РЅС‡РµСЂ, Рё, РµСЃР»Рё СѓСЃС‚Р°РЅРѕРІР»РµРЅ, СЃРїСЂРѕСЃРёРј,С…РѕС‚РёРј Р»Рё РјС‹ РµРіРѕ РїРµСЂРµСѓСЃС‚Р°РЅРѕРІРёС‚СЊ **********************
+adb -d wait-for-device
+adb -d install ./VoyahTweaks.apk >nul
+if %errorlevel% NEQ 0 goto :errtw
+rem :skip2
+echo. Твикс установлен
+Set choice=
+if %cunba% == 0 (echo. Cunba нет, к установке ланчера) else goto :ex2
 if %DEBUGMODE% ==1 pause
-if %DEBUGMODE% ==1 (echo РџР РћР’Р•Р РЇР•Рњ РќРђР›РР§РР• СѓР¶Рµ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРіРѕ Р»Р°РЅС‡РµСЂР°)
+if %DEBUGMODE% ==1 echo ПРОВЕРЯЕМ НАЛИЧИЕ уже установленного ланчера
 if exist process.txt del process.txt > nul
 adb -d shell pm list packages | find /I "com.simplemobiletools.applauncher" > process.txt
 if not exist process.txt (
-	echo Disk write protected
-	echo installation aborted
+	echo. Disk write protected
+	echo. installation aborted
 	pause
 	goto :end
 	)
-for %%i in ("process.txt") do set /a size2=%%~Zi > nul
-if %size2% ==  0 (echo Р§РёСЃС‚Р°СЏ СѓСЃС‚Р°РЅРѕРІРєР°
-goto :ex3
-) ELSE (
-	:zone2
-	echo РћР±РЅР°СЂСѓР¶РµРЅ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ Р»Р°РЅС‡РµСЂ. Р’С‹Р±РµСЂРёС‚Рµ
-	Echo. 1 - СѓРґР°Р»РёС‚СЊ Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Р·Р°РЅРѕРІРѕ. РІСЃРµ РґРѕР±Р°РІР»РµРЅРЅС‹Рµ
-	echo.     РїСЂРёР»РѕР¶РµРЅРёСЏ Р±СѓРґСѓС‚ СѓРґР°Р»РµРЅС‹ РёР· Р»Р°РЅС‡РµСЂР° (РЅРµ СЃ РјР°С€РёРЅС‹)
-	Echo. 2 - СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Р»Р°РЅС‡РµСЂ РёР· РїРѕРІРµСЂС… РёРјРµСЋС‰РµРіРѕСЃСЏ.
-	echo.      Р’СЃРµ РЅР°СЃС‚СЂРѕР№РєРё Р±СѓРґСѓС‚ СЃРѕС…СЂР°РЅРµРЅС‹
-	Echo. 3 - РїСЂРѕРїСѓСЃС‚РёС‚СЊ СѓСЃС‚Р°РЅРѕРІРєСѓ Р»Р°РЅС‡РµСЂР°
+for %%I in ("process.txt") do (set /a size2=%%~zI)
+if %size2%==0 (echo. Старый ланчер не обнаружен, чистая установка
+		goto :ex3
+)
+:zone2
+	Set choice=
+	echo. Обнаружен ранее установленный ланчер. Выберите
+	Echo. 1 - Удалить и установить заново. Все добавленные
+	echo.     приложения будут удалены из ланчера, но не с машины
+	Echo. 2 - Установить ланчер из набора поверх имеющегося
+	echo.     Все настройки будут сохранены
+	Echo. 3 - Пропустить установку ланчера
+	Echo. 9 - Удалить ланчер и выйти в меню
+	Echo. 0 - Выйти в меню не продолжая установку
 	echo.
-	Set /p choice="Р’Р°С€ РІС‹Р±РѕСЂ: "
+if %DEBUGMODE% ==1 echo on
+	Set /p choice="Ваш выбор: "
 	if not defined choice goto :zone2
 	if "%choice%"=="1" (
-		adb uninstall com.simplemobiletools.applauncher > nul
-		adb install ./../apk/app-launcher.apk
+		echo. УДАЛЯЕМ
+		adb -d uninstall com.simplemobiletools.applauncher > nul
+		echo. Устанавливаем
+		adb -d install ./app-launcher.apk >nul
+if %DEBUGMODE% ==1 echo переход на метку ex2
+if %DEBUGMODE% ==1 pause
 		goto :ex2
 	)
 	if "%choice%"=="2" (
-:ex3		adb install ./../apk/app-launcher.apk
+:ex3		
+if %DEBUGMODE% ==1 echo выбор 2 установка
+if %DEBUGMODE% ==1 pause
+		adb -d install ./app-launcher.apk
+if %DEBUGMODE% ==1 echo переход на метку ex2
+if %DEBUGMODE% ==1 pause
 		goto :ex2
 	)
 	if "%choice%"=="3" (
-		goto :ex2
+if %DEBUGMODE% ==1 echo выбор 3 переход ex2 
+if %DEBUGMODE% ==1 pause
+goto :ex2
+)
+	if "%choice%"=="9" (
+if %DEBUGMODE% ==1 echo выбор 9 
+if %DEBUGMODE% ==1 pause
+		echo. пп9. УДАЛЯЕМ ланчер
+		adb -d uninstall com.simplemobiletools.applauncher > nul
+		if exist process.txt del process.txt > nul
+		set choice=
+if %DEBUGMODE% ==1 echo переход на метку m1 отсутствует zone2 used
+if %DEBUGMODE% ==1 pause
+if %DEBUGMODE% ==1 goto :zone2
+		goto :m1
 	)
+	if "%choice%"=="0" (
+		echo. Ланчер НЕ изменялся, завершаем установку
+		if exist process.txt del process.txt > nul
+		set choice=
+if %DEBUGMODE% ==1 echo переход на метку m1 отсутствует zone2 used
+if %DEBUGMODE% ==1 pause
+if %DEBUGMODE% ==1 goto :zone2
+		goto :m1
+	)
+
 	cls
 	goto :zone2
-	:ex2
-	if %DEBUGMODE% ==1 (echo. РїРѕРґС‚РёСЂР°РµРј С…РІРѕСЃС‚С‹, СѓРґР°Р»СЏРµРј РІСЂРµРјРµРЅРЅС‹Рµ С„Р°Р№Р»С‹)
+:ex2
+	if %DEBUGMODE% ==1 (echo. подтираем хвосты, удаляем временные файлы)
 	if exist process.txt del process.txt > nul
-	if %DEBUGMODE% == 1 (echo. Р›Р°СѓРЅС‡РµСЂ СѓСЃС‚Р°РЅРѕРІР»РµРЅ)
+	if %DEBUGMODE% == 1 (echo. Лаунчер установлен)
 )
-echo. Р Р°Р·РґР°РµРј РїСЂР°РІР° РЅР° РїСЂРёР»РѕР¶РµРЅРёРµ
+echo. Раздаем права на приложение
 adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.SYSTEM_ALERT_WINDOW
 if not errorlevel 0 goto :err2
 adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.READ_LOGS
@@ -234,96 +379,123 @@ adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.RECORD_AUDIO
 adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.WRITE_EXTERNAL_STORAGE
 adb -d shell pm grant ru.kachalin.voyahtweaks android.permission.WRITE_SECURE_SETTINGS
 if %DEBUGMODE% == 1 (
-	echo. РџСЂР°РІР° РЅР° РїСЂРёР»РѕР¶РµРЅРёРµ СЂР°Р·РґР°Р»Рё
-	echo. РџРѕРµС…Р°Р»Рё! (СЃ)
+	echo. Права на приложение раздали
+	echo. Поехали!
 )
-adb -d shell am start ru.kachalin.voyahtweaks/.android.activity.main.MainActivity
-if errorlevel 0 (echo. РЈРЎРџР•РЁРќРћ) ELSE (
-	echo. ooooooooo РћС€РёР±РєР° СѓСЃС‚Р°РЅРѕРІРєРё Р°РІС‚РѕР·Р°РїСѓСЃРєР° oooooooooooooo
+adb -d shell am start ru.kachalin.voyahtweaks/.android.activity.main.MainActivity >nul
+if errorlevel 0 (echo. TWEAKS УСПЕШНО ЗАПУЩЕН) ELSE (
+	echo. ooooooooo Ошибка установки автозапуска oooooooooooooo
 	)
 
 echo.
 echo.
-echo. РџР•Р Р•Р” РџР РћР”РћР›Р–Р•РќРР•Рњ Р’РљР›Р®Р§РРўР• Р’ РўР’РРљРЎР•
-echo. РќРђ Р­РљР РђРќР• РџР•Р Р•РћРџР Р•Р”Р•Р›Р•РќРР• РљРќРћРџРљР Р›РђРќР§Р•Р Рђ
-echo.   Рё РџР»Р°РІР°СЋС‰СѓСЋ РєРЅРѕРїРєСѓ
+echo. ПЕРЕД ПРОДОЛЖЕНИЕМ ВКЛЮЧИТЕ В ТВИКСЕ
+echo. НА ЭКРАНЕ ПЕРЕОПРЕДЕЛЕНИЕ КНОПКИ ЛАНЧЕРА
+echo.   и Плавающую кнопку
+echo.
+echo. Отключение родной и запуск Яндекс.Клавиатуры
+echo. выполняйте ПОСЛЕ ее установки из пп.5
 pause
-echo. РќР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ РґР»СЏ РїРµСЂРµР·Р°РіСЂСѓР·РєРё MM
+echo. Нажмите любую клавишу для перезагрузки MM
 echo.
 pause >nul
+echo.  ПЕРЕЗАГРУЗКА 3/3 этап
 adb -d reboot
-rem goto :addons
 :addons
-rem РЅРёР¶Рµ РѕСЃРЅРѕРІРЅРѕРµ РјРµРЅСЋ 
+rem ниже основное меню 
 cls
 :m1
 set choice=
 cls
-echo. РџСЂРё РїРѕРґРґРµСЂР¶РєРµ Рё РїРѕРїСѓСЃС‚РёС‚РµР»СЊСЃС‚РІРµ С‚РµР»РµРіСЂР°РјРј-РєР°РЅР°Р»Р°
+echo. При поддержке и попустительстве телеграмм-канала
 echo.      Voyah Chat https://t.me/voyahchat
-echo.         (c) 2024 РІСЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹ 
+echo.         (c) 2024 все права защищены 
 if %DEBUGMODE% == 1 (
 echo.     CPU %cpuver% on android %verver% cunba %cunba%
 )
 echo.
-Echo. Р’С‹Р±РµСЂРёС‚Рµ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРѕРіСЂР°РјРјС‹ СѓСЃС‚Р°РЅРѕРІРєРё:
+Echo. Выберите возможности программы установки:
 Echo.
 if %cunba% == 0 (
-	Echo. 1 - РЈСЃС‚Р°РЅРѕРІРєР° TWEAKS + LAUNCHER
+	Echo. 1 - Установка TWEAKS + LAUNCHER
 	) else (
-	Echo. 1 - РЈСЃС‚Р°РЅРѕРІРєР° TWEAKS Р‘Р•Р— LAUNCHER'a
+	Echo. 1 - Установка TWEAKS БЕЗ LAUNCHER'a
 )
-Echo. 2 - РЈСЃС‚Р°РЅРѕРІРєР° РїСЂРёР»РѕР¶РµРЅРёСЏ APKPURE
-Echo. 3 - РЈСЃС‚Р°РЅРѕРІРєР° РІСЂРµРјРµРЅРЅРѕР№ Р·РѕРЅС‹
-if %cunba% == 0 Echo. 4 - РџРµСЂРµС‚Р°СЃРєРёРІР°РЅРёРµ РїСЂРѕРіСЂР°РјРј РЅР° СЌРєСЂР°РЅ РїР°СЃСЃР°Р¶РёСЂР°
-Echo. 5 - РљРѕСЂСЂРµРєС†РёСЏ DNS РґР»СЏ РЅРѕСЂРјР°Р»СЊРЅРѕР№ СЂР°Р±РѕС‚С‹ РїСЂРёР»РѕР¶РµРЅРёР№
-Echo. 6 - РЈСЃС‚Р°РЅРѕРІРєР° РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёС… РїСЂРёР»РѕР¶РµРЅРёР№
-if %cunba% == 1 Echo. 7 - РЈРґР°Р»РµРЅРёРµ CUNBA СЃ СѓСЃС‚СЂРѕР№СЃС‚РІР°
-Echo. 8 - Р Р°Р·СЂРµС€РёС‚СЊ/Р·Р°РїСЂРµС‚РёС‚СЊ РІСЃС‚СЂРѕРµРЅРЅСѓСЋ РєР»Р°РІРёР°С‚СѓСЂСѓ
-Echo. 9 - РЈРґР°Р»РµРЅРёРµ РёРµСЂРѕРіР»РёС„РѕРІ РёР· РёРјРµРЅРё WiFi СЃРµС‚Рё
-Echo. 0 - Р’Р«РҐРћР”
- 
+Echo. 2 - Установка приложения APKPURE
+Echo. 3 - Установка временной зоны
+Echo. 4 - Дополнительно
+Echo. 5 - Установка пользовательских приложений
+Echo. 0 - ВЫХОД
 echo.
-Set /p choice="Р’Р°С€ РІС‹Р±РѕСЂ: "
+Set /p choice="Ваш выбор: "
 if not defined choice goto m1
-if "%choice%"=="3" (call :zone)
-if %cunba% == 0 if "%choice%"=="4" (call :free)
+if "%choice%"=="1" (call :tweaks)
 if "%choice%"=="2" (call :apkpure)
-if "%choice%"=="1" (goto tweaks)
-if "%choice%"=="5" (call :setdns)
-if "%choice%"=="6" (call :userapk)
-if %cunba% == 1 if "%choice%"=="7" (call :delcunba)
-if "%choice%"=="8" (call :keyb)
-if "%choice%"=="9" (call :wifiname)
+if "%choice%"=="3" (call :zone)
+if "%choice%"=="4" (goto :addmenu)
+if "%choice%"=="5" (call :userapk)
 if "%choice%"=="0" goto :end
 goto m1
+:addmenu
+cls
+Set choice=
+echo.
+echo. Дополнительные функции
+if %cunba% == 0 Echo. 1 - Перетаскивание программ на экран пассажира
+Echo. 2 - Коррекция DNS для нормальной работы приложений
+if %cunba% == 1 Echo. 3 - Удаление CUNBA с устройства
+Echo. 4 - Разрешить/запретить встроенную клавиатуру
+Echo. 5 - Удаление иероглифов из имени WiFi сети
+Echo. 6 - Перезапуск TWEAKS
+echo. 7 - Альтернативный перезапуск TWEAKS
+echo. 8 - Перезагрузить мультимедиа
+Echo. 0 - Возврат в главное меню
+echo.
+Set /p choice="Ваш выбор: "
+if not defined choice goto addmenu
+if %cunba% == 0 if "%choice%"=="1" (call :free)
+if "%choice%"=="2" (call :setdns)
+if %cunba% == 1 if "%choice%"=="3" (call :delcunba)
+if "%choice%"=="4" (call :keyb)
+if "%choice%"=="5" (call :wifiname)
+if "%choice%"=="6" (
+	adb -d shell am start ru.kachalin.voyahtweaks/.android.activity.main.MainActivity >nul
+	goto :addmenu
+)
+if "%choice%"=="7" (
+	adb -d shell am start ru.kachalin.voyahtweaks/.android.activity.main.MainActivity --user 0 >nul
+	goto :addmenu
+)
 
+if "%choice%"=="8" adb -d reboot
+if "%choice%"=="0" goto :m1
+goto :addmenu
 :zone
 set choice=
 cls
 echo. timezone settings
-echo. РџРѕСЃР»Рµ СѓСЃС‚Р°РЅРѕРІРєРё, Р±Р»РѕРє РјСѓР»СЊС‚РёРјРµРґРёР° 
-echo. Р±СѓРґРµС‚ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїРµСЂРµР·Р°РіСЂСѓР¶РµРЅ 
-Echo. Р’С‹Р±РµСЂРёС‚Рµ СѓСЃС‚Р°РЅРѕРІРєРё:
+echo. После установки, блок мультимедиа 
+echo. будет автоматически перезагружен 
+Echo. Выберите установки:
 Echo.
 Echo. 1 - GMT+1 Europe/Belgrade
 Echo. 2 - GMT+2 Europe/Kaliningrad
-Echo. 3 - GMT+3 РњРѕСЃРєРІР°
-Echo. 4 - GMT+4 РўРѕРјСЃРє/РќРѕРІРѕСЃРёР±РёСЂСЃРє
+Echo. 3 - GMT+3 Москва
+Echo. 4 - GMT+4 Томск/Новосибирск
 Echo. 5 - GMT+5 Europe/Samara
-Echo. 8 - GMT+8 РљРёС‚Р°Р№/Р’Р»Р°РґРёРІРѕСЃС‚РѕРє
-Echo. 0 - Р’РћР—Р’Р РђРў РІ РїСЂРµРґС‹РґСѓС‰РµРµ РјРµРЅСЋ
+Echo. 8 - GMT+8 Китай/Владивосток
+Echo. 0 - ВОЗВРАТ в предыдущее меню
  
 echo.
-Set /p choice="Р’Р°С€ РІС‹Р±РѕСЂ: "
+Set /p choice="Ваш выбор: "
 if %TESTMODE% ==1 (
-	echo. СЃРґРµР»Р°РЅ РІС‹Р±РѕСЂ %choice%
-	echo. РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ РґР»СЏ РІРѕР·РІСЂР°С‚Р° РІ РіР»Р°РІРЅРѕРµ РјРµРЅСЋ
+	echo. сделан выбор %choice%
+	echo. нажмите любую клавишу для возврата в главное меню
 	pause >nul
 	goto :m1
 )
 if not defined choice goto :zone
-if "%choice%"=="1" (adb -d shell settings put global time_zone Europe/Belgrade)
+if "%choice%"=="1" (adb -d shell setprop persist.sys.timezone "Europe/Belgrade")
 if "%choice%"=="2" (adb -d shell setprop persist.sys.timezone "Europe/Kaliningrad")
 if "%choice%"=="3" (adb -d shell setprop persist.sys.timezone "Europe/Moscow")
 if "%choice%"=="4" (adb -d shell setprop persist.sys.timezone "Asia/Tomsk")
@@ -340,23 +512,23 @@ chcp 1251 > nul
 cls
 if %TESTMODE% == 1 goto :free_end
 if %DEBUGMODE% ==1 (
-	echo РџРѕРґРіРѕС‚РѕРІР»РёРІР°РµРј adb Рє СЂР°Р±РѕС‚Рµ
+	echo Подготовливаем adb к работе
 	)
 adb -d wait-for-device
 adb -d root
 adb -d wait-for-device
 adb -d remount
 if %DEBUGMODE% ==1 ( 
-	echo adb Рє СЂР°Р±РѕС‚Рµ РїРѕРґРіРѕС‚РѕРІР»РµРЅРѕ
-	echo РћР±РЅРѕРІР»СЏРµРј СЃРїРёСЃРѕРє РїСЂРёР»РѕР¶РµРЅРёР№ РґР»СЏ РїРµСЂРµРЅРѕСЃР° РјРµР¶РґСѓ СЌРєСЂР°РЅР°РјРё
+	echo adb к работе подготовлено
+	echo Обновляем список приложений для переноса между экранами
 	)
-adb -d push ./../source/multidisplay_anim_app_white.list /system/etc/qinggan
+adb -d push ./multidisplay_anim_app_white.list /system/etc/qinggan
 :free_end
 if errorlevel 0 (
-	echo. CРїРёСЃРѕРє РїСЂРёР»РѕР¶РµРЅРёР№ РґР»СЏ РїРµСЂРµРЅРѕСЃР° РѕР±РЅРѕРІР»С‘РЅ,
-	echo. РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+	echo. Cписок приложений для переноса обновлён,
+	echo. нажмите любую клавишу
 	) else (
-	echo oooooooooooo РћС€РёР±РєР° РєРѕРїРёСЂРѕРІР°РЅРёСЏ С„Р°Р№Р»Р° ooooooooooooooooo
+	echo oooooooooooo Ошибка копирования файла ooooooooooooooooo
 )
 pause > nul
 exit /b
@@ -364,98 +536,47 @@ exit /b
 :apkpure
 chcp 1251
 cls
-if %TESTMODE% == 1 goto :apkpure_end
+if %TESTMODE% == 1 (
+echo .adb -d install -g ./APKPure.v.3.19.35.b.3193547.Permissions.Removed_album.apk
+::echo. adb -d install -g --user 0 ./APKPure.v.3.19.35.b.3193547.Permissions.Removed_album.apk
+goto :apkpure_end
+)
 if %DEBUGMODE% ==1 (echo Waiting for adb)
-if not exist ./adb.exe (cd ./platform-tools)
 adb -d wait-for-device
-if %DEBUGMODE% ==1 echo (РЈСЃС‚Р°РЅР°РІР»РёРІР°СЋ APKPure)
-adb -d install -g ./../apk/APKPure.v.3.19.35.b.3193547.Permissions.Removed_album.apk
+if %DEBUGMODE% ==1 echo (Устанавливаю APKPure)
+adb -d install -g ./APKPure.v.3.19.35.b.3193547.Permissions.Removed_album.apk
+::adb -d install -g --user 0 ./APKPure.v.3.19.35.b.3193547.Permissions.Removed_album.apk
+pause
 if %DEBUGMODE% ==1 (
-	echo APKPure СѓСЃС‚Р°РЅРѕРІР»РµРЅРѕ
-	echo Р’С‹РґР°СЋ РїСЂР°РІР° СѓСЃС‚Р°РЅРѕРІРєРё РїСЂРёР»РѕР¶РµРЅРёР№
+	echo APKPure установлено
+	echo Выдаю права установки приложений
 	)
 adb -d shell appops set com.apkpure.aegon REQUEST_INSTALL_PACKAGES allow
+adb -d shell appops set com.apkpure.aegon REQUEST_INSTALL_PACKAGES allow --user 0
+pause
 :apkpure_end
-if %DEBUGMODE% ==1 ( echo APKPURE СѓСЃС‚Р°РЅРѕРІР»РµРЅРѕ, RIGHTS РІС‹РґР°РЅС‹)
-echo РџСЂР°РІР° СѓСЃС‚Р°РЅРѕРІРєРё РїСЂРёР»РѕР¶РµРЅРёР№ СЂР°Р·РґР°Р»Рё
-echo РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ РґР»СЏ РїСЂРѕРґРѕР»Р¶РµРЅРёСЏ
+if %DEBUGMODE% ==1 ( echo APKPURE установлено, RIGHTS выданы)
+echo Права установки приложений раздали
+echo нажмите любую клавишу для продолжения
 pause > nul
 exit /b
-
-:adbscreen
-if %TESTMODE% == 1 goto :exadb
-if not exist adb.exe (cd ./platform-tools)
-adb kill-server > nul
-echo Waiting for adb
-adb -d wait-for-device
-if not errorlevel 0 goto :err2
-rem РґР°Р»РµРµ СЃС‡РёС‚Р°РµРј С‡С‚Рѕ СЃРѕРµРґРёРЅРµРЅРёРµ РїСЂРёСЃСѓС‚СЃС‚РІСѓРµС‚ Рё РЅРµ РЅР°РґРѕ РїСЂРё РєР°Р¶РґРѕР№ РєРѕРјР°РЅРґРµ РїРµСЂРµРґРµСЂРіРёРІР°С‚СЊ РїРµСЂРµРєР»СЋС‡Р°С‚РµР»СЊ "USB Debug"
-if %DEBUGMODE% ==1 (echo "РћРџР Р•Р”Р•Р›РЇР•Рњ Р’Р•Р РЎРР® РђРќР”Р РћРР”")
-adb -d shell getprop ro.build.version.release > "version.txt"
-if not exist version.txt goto :writeerror
-set /p verver=< version.txt
-adb -d shell getprop ro.bootimage.build.date.utc >"osdate.txt"
-set /p times=<osdate.txt
-if times GTR osversion ( 
-	echo WOW ! РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅР° РїРѕСЃР»РµРґРЅСЋСЋ РїСЂРѕС€РёРІРєСѓ
-	
-)
-if times LEQ osversion ( 
-	echo WOW ! РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РќРђ РќР• РїРѕСЃР»РµРґРЅСЋСЋ РїСЂРѕС€РёРІРєСѓ
-	
-)
-if %DEBUGMODE% ==1 (
-	if %verver% == 11 echo Р РµСЃС‚Р°Р№Р»РёРЅРі
-	if %verver% == 9 echo Р”РѕСЂРµСЃС‚Р°Р№Р»РёРЅРі
-	if %verver% == 13 echo С‚РµСЃС‚РѕРІС‹Р№ HONOR
-	echo РџРћР›РЈР§Р•РќРР• РўРРџРђ РџР РћР¦Р•РЎРЎРћР Рђ Р’ РњРђРЁРРќР•
-	)
-adb -d shell getprop ro.hardware > "cpu.txt"
-set /p cpuver=< cpu.txt
-if %cpuver% == qcom ( 
-	if %DEBUGMODE% ==1 (echo "you running QUALCOMM")
-	set cputype =1
-	)
-if %cpuver% == nxp (
-	if %DEBUGMODE% ==1 (echo "you running OLD VERSION multimedia")
-	set cputype = 0
-	)
-echo CPU %cpuver% on android %verver%
-if %DEBUGMODE% ==1 pause
-rem РІР°СЂРёР°РЅС‚ РЅРµСѓРґР°С‡РЅРѕРіРѕ РїРѕР»СѓС‡РµРЅРёСЏ С‚РёРїР° CPU adb -d shell dumpsys cpuinfo
-if %DEBUGMODE% ==1 (echo. РџР РћР’Р•Р РЇР•Рњ РќРђР›РР§РР• CUNBA)
-if exist process.txt del process.txt > nul
-adb -d shell pm list packages | find /I "cunba" > process.txt
-if not exist process.txt (
-	echo Disk write protected
-	echo installation aborted
-	pause
-	goto :end
-	)
-for %%i in ("process.txt") do set /a size2=%%~Zi > nul
-if %size2% ==  0 (echo CUNBA РЅРµС‚, СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РџРћР›РќРЈР® РІРµСЂСЃРёСЋ) ELSE (set cunba = 1)
-if %DEBUGMODE% ==1 (echo "РїРѕРґС‚РёСЂР°РµРј С…РІРѕСЃС‚С‹, СѓРґР°Р»СЏРµРј РІСЂРµРјРµРЅРЅС‹Рµ С„Р°Р№Р»С‹")
-if exist version.txt del version.txt > nul
-if exist process.txt del process.txt > nul
-if exist cpu.txt del cpu.txt > nul
-if exist osdate.txt del osdate.txt > nul"
-:exadb
-exit /b
 :setdns
-if not exist "./adb.exe" (cd ./platform-tools)
+SET pass=
 cls
-echo. Р’Р« РџРћРќРРњРђР•РўР• Р§РўРћ Р’РќРћРЎРРўР• РР—РњР•РќР•РќРРЇ 
-echo. Р’ РЎРРЎРўР•РњРќР«Р• РќРђРЎРўР РћР™РљР РњРЈР›Р¬РўРРњР•Р”РРЇ
-echo. РќР° РїРѕР»СѓС‡РµРЅРёРµ РїСЂРѕС€РёРІРѕРє СЌС‚Рѕ РЅРµ РґРѕР»Р¶РЅРѕ СЃРєР°Р·Р°С‚СЊСЃСЏ
-ECHO. Р’Р« РџР РћС‡РРўРђР›Р Р’РЎР• Р’Р«РЁР•РќРђРџРРЎРђРќРќРћР• Р РЎРћР“Р›РђРЎРќР«
+echo. ВЫ ПОНИМАЕТЕ ЧТО ВНОСИТЕ ИЗМЕНЕНИЯ 
+echo. В СИСТЕМНЫЕ НАСТРОЙКИ МУЛЬТИМЕДИЯ
+echo. На получение прошивок это не должно сказаться
+ECHO. ВЫ ПРОчИТАЛИ ВСЕ ВЫШЕНАПИСАННОЕ И СОГЛАСНЫ
 echo.
-echo. Р’РІРµРґРёС‚Рµ 1 РґР»СЏ common.dot.dns.yandex.net
-echo. Р’РІРµРґРёС‚Рµ 2 РґР»СЏ dns10.quad.net 
-echo. Р’РІРµРґРёС‚Рµ 0 РґР»СЏ РІРѕР·РІСЂР°С‚Р° РІ РјРµРЅСЋ
-SET /P pass=Р’РІРµРґРёС‚Рµ 1, 2 РёР»Рё 0 
+echo. Введите 1 для common.dot.dns.yandex.net
+echo. Введите 2 для dns10.quad.net 
+echo. Введите 3 для восстановления заводских установок
+echo. Введите 0 для возврата в меню
+SET /P pass=Введите 1, 2, 3 или 0 
+if not defined pass goto :setdns
 if %TESTMODE% == 1 (
-	echo Р’РІРµРґРµРЅРѕ %pass%
-	echo РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+	echo Введено %pass%
+	echo нажмите любую клавишу
 	pause >nul
 	goto :setdns_ex
 )
@@ -468,70 +589,81 @@ if %pass% == 1 (
 	adb -d shell settings put global captive_portal_http_url http://api.browser.yandex.ru/generate_204
 	adb -d shell settings put global captive_portal_https_url https://api.browser.yandex.ru/generate_204
 	adb -d shell settings put global captive_portal_other_fallback_urls http://www.google.com/generate_204
-) else  adb -d shell settings put global private_dns_specifier dns10.quad.net
+) 
+if %pass% == 2 ( adb -d shell settings put global private_dns_specifier dns10.quad.net )
+if %pass% == 3 ( adb -d shell settings put global private_dns_default_mode off )
 :setdns_ex
-echo. РџР РћРР—Р’Р•Р”Р•РќРђ РќРђРЎРўР РћР™РљРђ DNS
-echo. РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ РґР»СЏ РїСЂРѕРґРѕР»Р¶РµРЅРёСЏ
+echo. ПРОИЗВЕДЕНА НАСТРОЙКА DNS
+echo. нажмите любую клавишу для продолжения
 pause > nul
 exit /b
+
 :userapk
 cls
-if %DEBUGMODE% ==1 (echo. РџСЂРѕРІРµСЂРёРј РЅР°Р»РёС‡РёРµ РєР°С‚Р°Р»РѕРіР° СЃ РїСЂРёР»РѕР¶РµРЅРёСЏРјРё)
-if not exist ".././apk2" (
-	echo.
-	echo. РєР°С‚Р°Р»РѕРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёС… С„Р°Р№Р»РѕРІ ./apk2 РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ 
-	echo. РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ РґР»СЏ РІРѕР·РІСЂР°С‚Р° РІ РѕСЃРЅРѕРІРЅРѕРµ РјРµРЅСЋ
-	pause >nul
-	exit /b
-)
-echo. РџСЂРѕРІРµСЂРєР° РІС‹РїРѕР»РЅРµРЅР°
-echo. РќРђР§РђР›Рћ РЈРЎРўРђРќРћР’РљР РџРћР›Р¬Р—РћР’РђРўР•Р›Р¬РЎРљРРҐ РџР РР›РћР–Р•РќРР™. 
-echo. Р‘РЈР”Р¬РўР• Р’РќРРњРђРўР•Р›Р¬РќР«. РњР« РќР• РќР•РЎР•Рњ РќРРљРђРљРћР™ РћРўР’Р•РўРЎРўР’Р•РќРќРћРЎРўР
 echo.
-echo. РџР РћР§РўРРўР• РќРР–Р•
+echo. НАЧАЛО УСТАНОВКИ ПОЛЬЗОВАТЕЛЬСКИХ ПРИЛОЖЕНИЙ. 
+echo. БУДЬТЕ ВНИМАТЕЛЬНЫ. МЫ НЕ НЕСЕМ НИКАКОЙ ОТВЕТСТВЕННОСТИ
+echo.
+echo. ПРОЧТИТЕ НИЖЕ
 echo ----------------------
-echo. Р‘СѓРґРµС‚ РїСЂРѕРёР·РІРµРґРµРЅР° СѓСЃС‚Р°РЅРѕРІРєР° РІСЃРµС… РїСЂРёР»РѕР¶РµРЅРёР№ РёР· РїРѕРґРєР°С‚Р°Р»РѕРіР° apk2
-echo. РџРѕСЃР»Рµ СѓСЃС‚Р°РЅРѕРІРєРё, РІСЃРµ РїСЂРёР»РѕР¶РµРЅРёСЏ РЅРµРѕР±С…РѕРґРёРјРѕ 
-echo. Р’Р РЈР§РќРЈР® РґРѕР±Р°РІРёС‚СЊ РІ РјР°С€РёРЅРµ СЃ РїРѕРјРѕС‰СЊСЋ РєРЅРѕРїРєРё "+" РІ Р»Р°РЅС‡РµСЂРµ
+echo. Будут установлены все приложения из подкаталога apk2
+echo. После установки, все приложения необходимо 
+echo. ВРУЧНУЮ добавить в машине с помощью кнопки "+" в ланчере
 echo.
-echo. Р РµРєРѕРјРµРЅРґРѕРІР°РЅРЅС‹Р№ РЅР°Р±РѕСЂ РїСЂРёР»РѕР¶РµРЅРёР№ РґР»СЏ СЂР°Р±РѕС‚С‹ РІ РјР°С€РёРЅРµ
-echo. 1. yn.apk - РЇРЅРґРµРєСЃ.РќР°РІРёРіР°С‚РѕСЂ. Р Р°Р±РѕС‚Р°РµС‚ РіРѕР»РѕСЃРѕРІРѕР№ РІРІРѕРґ 
-echo.     РѕС‚ РђР»РёСЃС‹, РїСЂРё РїСЂР°РІРёР»СЊРЅРѕР№ РЅР°СЃС‚СЂРѕР№РєРµ СЏР·С‹РєРѕРІ РїСЂРѕРіСЂР°РјРјС‹
-echo. 2. HUD+SPEED - "РЎС‚СЂРµР»РєР°-РђРЅС‚РёСЂР°РґР°СЂ". 
-echo.     С‚СЂРµР±СѓРµС‚ РІРЅРёРјР°С‚РµР»СЊРЅРѕР№ РЅР°СЃС‚СЂРѕР№РєРё 
-echo. 3. FMPLAY РРЅС‚РµСЂРЅРµС‚ СЂР°РґРёРѕ РєР°РЅР°Р»РѕРІ FM-РґРёР°РїР°Р·РѕРЅР°. 
-echo.     РўСЂРµР±СѓРµС‚СЃСЏ РёРЅС‚РµСЂРЅРµС‚
-echo. 4. gmaps.apk Google Maps РґР»СЏ С‚РµС… РєС‚Рѕ РІ СЌС‚РѕРј РїРѕРЅРёРјР°РµС‚. 
-echo.     Р Р°Р±РѕС‚Р°СЋС‚ Р±РµР· РіСѓРіР»-СЃРµСЂРІРёСЃРѕРІ. РќРµ РѕР±РЅРѕРІР»СЏС‚СЊ.
-echo. 5. KinoPoisk.apk - СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ РљРёРЅРѕРџРѕРёСЃРє, С‚СЂРµР±СѓРµС‚ РЅР°Р»РёС‡РёСЏ 
-echo.     РїРѕРґРїРёСЃРєРё РЇРЅРґРµРєСЃ.РџР»СЋСЃ
-echo. 
-echo. Р§С‚РѕР±С‹ РЅРµ РїРµСЂРµРіСЂСѓР¶Р°С‚СЊ СѓСЃС‚Р°РЅРѕРІРѕС‡РЅС‹Р№ Р°СЂС…РёРІ С„Р°Р№Р»Р°РјРё, 
-echo. РїРѕС‡С‚Рё РІСЃРµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРµ С„Р°Р№Р»С‹ РћРўРЎРЈРўРЎРўР’РЈР®Рў
-echo. РС… РјРѕР¶РЅРѕ СЃРєР°С‡Р°С‚СЊ СЃ cunba.ru/apk РёР»Рё СЃ 4pda РёР»Рё СЃ AppGallery
-echo. Р•СЃР»Рё Сѓ РІР°СЃ СЃ СЌС‚РёРј СЃР»РѕР¶РЅРѕСЃС‚Рё - РѕР±СЂР°С‚РёС‚РµСЃСЊ РІ СЂР°Р·РґРµР» 
-echo. "РїР»Р°С‚РЅР°СЏ РїРѕРјРѕС‰СЊ" РўРљ РєР°РЅР°Р»Р° https://t.me/voyahchat
+echo. Рекомендованный набор приложений для работы в машине
+echo. 1. yn.apk - Яндекс.Навигатор. Работает голосовой ввод 
+echo.     от Алисы, при правильной настройке языков программы
+echo. 2. HUD+SPEED - "Стрелка-Антирадар". 
+echo.     требует внимательной настройки 
+echo. 3. FMPLAY Интернет радио каналов FM-диапазона. 
+echo.     Требуется интернет
+echo. 4. gmaps.apk Google Maps для тех кто в этом понимает. 
+echo.     Работают без гугл-сервисов. Не обновлять.
+echo. 5. KinoPoisk.apk - стандартный КиноПоиск, требует наличия 
+echo.     подписки Яндекс.Плюс
+echo. 6. Яндекс.Клавиатура. Будет установлена.
+echo. Чтобы не перегружать размер установочного архива 
+echo. многие пользовательские файлы в нем ОТСУТСТВУЮТ
+echo. Их можно скачать с Ru.Store, AppGallery, APKPURE
+echo. Если у вас с этим сложности - обратитесь в раздел 
+echo. "платная помощь" тг-канала https://t.me/voyahchat
 pause
-if %TESTMODE% == 1 (
-	for %%i in (.././apk2/*.apk) do (echo adb -d install -g .././apk2/%%i)
-) ELSE (
-	for %%i in (.././apk2/*.apk) do (adb -d install -g .././apk2/%%i)
-	adb -d shell appops set com.lixiang.chat.store REQUEST_INSTALL_PACKAGES allow > nul
-	adb -d shell dumpsys deviceidle whitelist +air.StrelkaHUDFREE >nul
-	adb -d shell appops set ru.vk.store REQUEST_INSTALL_PACKAGES allow
-	adb -d shell pm grant com.rhythm.hexise.task.pro android.permission.PACKAGE_USAGE_STATS
-
-
-	)
-echo РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ РґР»СЏ РІРѕР·РІСЂР°С‚Р° РІ РѕСЃРЅРѕРІРЅРѕРµ РјРµРЅСЋ
-pause > nul
+for %%i in (./apk2/*.apk) do (
+	echo. Устанавливаем %%i
+	adb -d install -g "./apk2/%%i" >nul
+)
+adb -d shell dumpsys deviceidle whitelist +air.StrelkaHUDFREE >nul
+adb -d shell appops set ru.vk.store REQUEST_INSTALL_PACKAGES allow >nul
+adb -d shell pm grant com.rhythm.hexise.task.pro android.permission.PACKAGE_USAGE_STATS >nul
+if %DEBUGMODE% ==1 (echo. ПРОВЕРЯЕМ НАЛИЧИЕ Li.Store)
+if exist process.txt del process.txt >nul
+adb -d shell pm list packages | find /I "com.lixiang.chat.store" > process.txt
+if not exist process.txt (
+	echo Disk write protected
+	echo installation aborted
+	pause
+	goto :end
+)
+for %%i in ("process.txt") do set /a size2=%%~Zi >nul
+if %size2% ==  0 (echo Li.Store нет, права ему не раздаем) ELSE (
+	echo Li.Store установлен, выдаем ему права на установку
+	adb -d shell appops set com.lixiang.chat.store REQUEST_INSTALL_PACKAGES allow >nul
+)
+if %OS6%==0 if %cunba%==0 (echo Ru.Store работать не будет УДАЛЯЕМ
+	adb -d shell pm list packages -3
+	pause
+	adb -d shell am force-stop ru.vk.store
+	adb -d shell pm uninstall ru.vk.store
+)
+if exist process.txt del process.txt >nul
+echo нажмите любую клавишу для возврата в основное меню
+pause >nul
 exit /b
-goto :end
 
 :delcunba
 cls
 echo preraring to remove cunba
-echo Р Р•РђР›РР—РћР’РђРќРћ, РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+echo Для УДАЛЕНИЯ, нажмите любую клавишу
 pause >nul
 if %TESTMODE% == 0 (
 	adb -d shell pm list packages -3
@@ -542,41 +674,42 @@ if %TESTMODE% == 0 (
 )
 exit /b
 :keyb
+SET pass=
 cls
-if not exist "./adb.exe" (cd ./platform-tools)
-echo. РљРђРўР•Р“РћР РР§Р•РЎРљР Р Р•РљРћРњР•РќР”РЈРўРЎРЇ РЈРЎРўРђРќРћР’РљРђ
-echo. .APK РЎРўРћР РћРќРќР•Р™ РљР›РђР’РРђРўРЈР Р« РџР•Р Р•Р” 
-echo. РџР РћР”РћР›Р–Р•РќРР•Рњ Р’Р«РџРћР›РќР•РќРРЇ РЎРљР РРџРўРђ
-echo. Р’РІРµРґРёС‚Рµ 1 РґР»СЏ Р РђР—Р Р•РЁРРўР¬
-echo. 2 РґР»СЏ Р—РђРџР Р•РўРРўР¬ СЂРѕРґРЅСѓСЋ РєР»Р°РІРёР°С‚СѓСЂСѓ
-echo. 0 РІРµСЂРЅСѓС‚СЊСЃСЏ РІ РїСЂРµРґС‹РґСѓС‰РµРµ РјРµРЅСЋ
+echo. КАТЕГОРИЧЕСКИ РЕКОМЕНДУТСЯ УСТАНОВКА
+echo. .APK СТОРОННЕЙ КЛАВИАТУРЫ ПЕРЕД 
+echo. ПРОДОЛЖЕНИЕМ ВЫПОЛНЕНИЯ СКРИПТА
+echo. Введите 1 для РАЗРЕШИТЬ
+echo. 2 для ЗАПРЕТИТЬ родную клавиатуру
+echo. 0 вернуться в предыдущее меню
 echo. 
-SET /P pass=Р’РІРµРґРёС‚Рµ 1 РёР»Рё 2 РёР»Рё 0 :
+SET /P pass=Введите 1 или 2 или 0 :
+if not defined pass goto :keyb
 if %TESTMODE% == 1 (
-	echo. Р’РІРµРґРµРЅРѕ %pass%
-	echo. РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+	echo. Введено %pass%
+	echo. нажмите любую клавишу
 	pause >nul
 	goto :kbend
 )
 if %pass% == 0 goto :kbend
 adb -d root
 if %pass% == 1 (
-	echo. Р’РѕСЃСЃС‚Р°РЅР°РІР»РёРІР°РµРј СЂР°Р·СЂРµС€РµРЅРёСЏ РґР»СЏ СЂРѕРґРЅРѕР№ РєР»Р°РІРёР°С‚СѓСЂС‹
+	echo. Восстанавливаем разрешения для родной клавиатуры
 	adb -d shell pm enable-user --user 0 com.qinggan.app.qgime
 	adb -d root
 	adb -d shell pm enable com.qinggan.app.qgime
 rem	adb -d shell pm enable com.qinggan.app.qgime.second
 rem	adb -d shell pm enable com.android.inputmethod.latin
 ) else (
-	echo. Р—Р°РїСЂРµС‰Р°РµРј СЂРѕРґРЅСѓСЋ РєР»Р°РІРёР°С‚СѓСЂСѓ
+	echo. Запрещаем родную клавиатуру
 	adb -d shell pm disable-user --user 0 com.qinggan.app.qgime
 	adb -d root
 	adb -d shell pm disable com.qinggan.app.qgime
 rem	adb -d shell pm disable com.qinggan.app.qgime.second
 rem	adb -d shell pm disable com.android.inputmethod.latin
 )
-echo. РќР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ РґР»СЏ РїСЂРѕРґРѕР»Р¶РµРЅРёСЏ
-echo. Р’РѕР·РјРѕР¶РЅРѕ, РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ РїРµСЂРµР·Р°РіСЂСѓР·РєР° РіРѕР»РѕРІРЅРѕРіРѕ СѓСЃС‚СЂРѕР№СЃС‚РІР°
+echo. Нажмите любую клавишу для продолжения
+echo. Возможно, потребуется перезагрузка головного устройства
 SET pass=
 pause >nul
 rem if %TESTMODE% == 0 adb -d reboot
@@ -586,12 +719,12 @@ goto :end
 :wifiname
 SET pass=
 echo.
-echo. Р’РІРµРґРёС‚Рµ Р¶РµР»Р°РµРјРѕРµ РёРјСЏ РґР»СЏ WiFi СЃРµС‚Рё
-echo. СЃРµС‚Рё Р‘Р•Р— РїСЂРѕР±РµР»РѕРІ Р°РЅРіР»РёР№СЃРєРёРјРё Р±СѓРєРІР°РјРё
-echo. РР›Р 0 РґР»СЏ РІРѕР·РІСЂР°С‚Р° РІ РјРµРЅСЋ
-SET /P pass=Р’РІРµРґРёС‚Рµ Р¶РµР»Р°РµРјРѕРµ РёРјСЏ РґР»СЏ WiFi СЃРµС‚Рё Р‘Р•Р— РїСЂРѕР±РµР»РѕРІ Р°РЅРіР»РёР№СЃРєРёРјРё Р±СѓРєРІР°РјРё:
+echo. Введите желаемое имя для WiFi сети
+echo. сети БЕЗ пробелов английскими буквами
+echo. ИЛИ 0 для возврата в меню
+SET /P pass=Введите желаемое имя для WiFi сети БЕЗ пробелов английскими буквами:
 if %TESTMODE% == 1 (
-	Echo Р’РІРµРґРµРЅРѕ РёРјСЏ СЃРµС‚Рё: %pass%
+	Echo Введено имя сети: %pass%
 	echo adb -d root
 	echo adb -d shell settings put global device_name ''
 	echo adb -d shell settings put global device_name_suffix %pass%
@@ -607,7 +740,18 @@ adb -d shell settings put global device_name_sample %pass%
 SET pass=
 :wifiend
 exit /b
-rem РґР°Р»СЊС€Рµ РѕР±СЂР°Р±РѕС‚РєР° РѕС€РёР±РѕРє
+:wait-for
+set wait1=0
+if exist wait.txt del wait.txt >nul
+adb -d wait-for-device
+:l1
+adb shell getprop dev.bootcomplete > "wait.txt"
+set /p wait1=< wait.txt
+if %wait1%==0 goto :l1
+set wait1=
+if exist wait.txt del wait.txt >nul
+exit /b
+rem дальше обработка ошибок
 :err1
 echo off
 cls
@@ -615,8 +759,8 @@ echo.
 echo.
 echo. 
 color 04
-echo РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РєР°С‚Р°Р»РѕРі СЃРёСЃС‚РµРјС‹ СѓСЃС‚Р°РЅРѕРІРєРё Рё ./platform-tools/adb.exe
-echo РґР»СЏ РІС‹С…РѕРґР° РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+echo отсутствует каталог системы установки и ./adb.exe
+echo для выхода нажмите любую клавишу
 echo.
 echo.
 pause > nul
@@ -628,8 +772,8 @@ echo.
 echo.
 echo. 
 color 04
-echo РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ СЃРѕРµРґРёРЅРµРЅРёРµ adb СЃ РјР°С€РёРЅРѕР№. РџСЂРѕРІРµСЂСЊС‚Рµ РІРєР»СЋС‡РёР»Рё Р»Рё РІС‹ USB Debug
-echo РґР»СЏ РІС‹С…РѕРґР° РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+echo отсутствует соединение adb с машиной. Проверьте включили ли вы USB Debug
+echo для выхода нажмите любую клавишу
 echo.
 echo.
 pause > nul
@@ -641,8 +785,8 @@ echo.
 echo.
 echo. 
 color 04
-echo РЅРµРІРѕР·РјРѕР¶РЅРѕ РїРѕР»СѓС‡РёС‚СЊ root-РґРѕСЃС‚СѓРї Рє СѓСЃС‚СЂРѕР№СЃС‚РІСѓ. РЈСЃС‚Р°РЅРѕРІРєР° РІРёРґРёРјРѕ РЅРµРІРѕР·РјРѕР¶РЅР°
-echo РґР»СЏ РІС‹С…РѕРґР° РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+echo невозможно получить root-доступ к устройству. Установка видимо невозможна
+echo для выхода нажмите любую клавишу
 echo.
 echo.
 pause > nul
@@ -650,8 +794,8 @@ goto :end
 :err3
 echo. 
 color 04
-echo РЅРµРІРѕР·РјРѕР¶РЅРѕ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ LOGCAT. РЈСЃС‚Р°РЅРѕРІРєР° С‡Р°СЃС‚РёС‡РЅРѕ РЅРµРІРѕР·РјРѕР¶РЅР°
-echo РґР»СЏ РІС‹С…РѕРґР° РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+echo невозможно установить LOGCAT. Установка частично невозможна
+echo для выхода нажмите любую клавишу
 echo.
 echo.
 pause > nul
@@ -662,8 +806,8 @@ cls
 echo.
 echo. 
 color 04
-echo РЅРµ СѓРґР°Р»РѕСЃСЊ РїСЂР°РІРёР»СЊРЅРѕ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ СЂР°Р·СЂРµС€РµРЅРёРµ РёР·РјРµРЅРµРЅРёСЏ СЂР°Р·РјРµСЂРѕРІ РїСЂРёР»РѕР¶РµРЅРёСЏ
-echo РґР»СЏ РІС‹С…РѕРґР° РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+echo не удалось правильно установить разрешение изменения размеров приложения
+echo для выхода нажмите любую клавишу
 echo.
 echo.
 pause > nul
@@ -674,22 +818,22 @@ cls
 echo.
 echo. 
 color 04
-echo РЅРµ СѓРґР°Р»РѕСЃСЊ РїСЂР°РІРёР»СЊРЅРѕ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РўР’РРљРЎ. РћР±СЂР°С‚РёС‚РµСЃСЊ Рє СЃРїРµС†РёР°Р»РёСЃС‚Р°Рј
-echo РґР»СЏ РІС‹С…РѕРґР° РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+echo не удалось правильно установить ТВИКС. Обратитесь к специалистам
+echo для выхода нажмите любую клавишу
 echo.
 echo.
 pause > nul
 goto :end
 :err22
-echo РћС‚СЃСѓС‚СЃС‚РІСѓСЋС‚ СѓСЃС‚Р°РЅРѕРІРѕС‡РЅС‹Рµ С„Р°Р№Р»С‹. РџСЂРѕРІРµСЂСЊС‚Рµ РІСЃРµ Р»Рё РІС‹ РїСЂР°РІРёР»СЊРЅРѕ СЂР°СЃРїР°РєРѕРІР°Р»Рё
-echo РґР»СЏ РІС‹С…РѕРґР° РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєР»Р°РІРёС€Сѓ
+echo Отсутствуют установочные файлы. Проверьте все ли вы правильно распаковали
+echo для выхода нажмите любую клавишу
 pause > nul
 goto :end
 :errCont
-echo Р’С‹ РїС‹С‚Р°РµС‚РµСЃСЊ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РќРћР’Р«Р™ С‚РІРёРєСЃ СЃРѕ РЎРўРђР Р«Рњ Р»Р°РЅС‡РµСЂРѕРј
+echo Вы пытаетесь установить НОВЫЙ твикс со СТАРЫМ ланчером
 pause
 :end
-rem СѓР±РёСЂР°РµРј РїСЂРµРґРѕРїСЂРµРґРµР»РµРЅРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ, С‡РёСЃС‚РёРј С…РІРѕСЃС‚С‹
+rem убираем предопределенные переменные, чистим хвосты
 set TESTMODE=
 set DEBUGMODE=
 set cpuver=
