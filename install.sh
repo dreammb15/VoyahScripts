@@ -1,13 +1,16 @@
 cd platform-tools
+
 chmod +x adb
 xattr -d com.apple.quarantine adb > /dev/null 2>&1
 export PATH=$PATH:.
 
-clear
-
 echo Начинаем установку
 
 echo Подготовливаем adb к работе
+echo Если тут зависло:
+echo 1 Проверьте включен ли USB Debugging, https://voyahchat.ru/common/usb-debugging
+echo 2 Проверьте подходит ли кабель, https://voyahchat.ru/common/cable
+echo 3 Перезагрузите компьютер и запустите скрипт заново
 adb wait-for-device
 adb root
 adb wait-for-device
